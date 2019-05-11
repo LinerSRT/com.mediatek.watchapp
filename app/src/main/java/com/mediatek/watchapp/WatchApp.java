@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
 import android.app.Application;
@@ -605,6 +606,7 @@ public class WatchApp extends Application {
         }
     }
 
+    @SuppressLint("WrongConstant")
     private static boolean isServiceRunning(Context context) {
         for (RunningServiceInfo service : ((ActivityManager) context.getSystemService("activity")).getRunningServices(Integer.MAX_VALUE)) {
             if (!"com.wiiteck.clockpreviewer.online.ClockSkinDownloadService".equals(service.service.getClassName())) {

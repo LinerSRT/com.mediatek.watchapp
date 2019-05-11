@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -17,17 +18,18 @@ import android.text.format.Time;
 import android.view.View;
 import android.view.View.MeasureSpec;
 
+@SuppressLint("ViewConstructor")
 public class MyAnalogClock extends View {
+    private static int mBatteryLevel;
+    private static boolean mChanged;
     private int SCREEN_WIDE;
     private int mBatteryBorder;
     private int mBatteryColor;
     private Drawable mBatteryHand;
-    private int mBatteryLevel;
     private Postion mBatteryPostion;
     private int mBatteryRadius;
     private int mBatterySize;
     private Time mCalendar;
-    private boolean mChanged;
     private int mDate;
     private int mDateColor;
     private Drawable mDateDial;
@@ -37,7 +39,7 @@ public class MyAnalogClock extends View {
     private Drawable mDial;
     private int mDialHeight;
     private int mDialWidth;
-    private final Handler mHandler;
+    Handler mHandler;
     private boolean mHasAnalogClock;
     private boolean mHasBatteryDial;
     private boolean mHasDateDial;
@@ -60,7 +62,8 @@ public class MyAnalogClock extends View {
     private Paint mPaint;
     private Paint mPaintBattery;
     private Paint mPaintStep;
-    private final Receiver mReceiver;
+    //private final Receiver mReceiver;
+    Receiver mReceiver;
     Rect mRect;
     RectF mRectF;
     private float mSecond;
@@ -98,6 +101,10 @@ public class MyAnalogClock extends View {
     private Postion mWeekPostion;
     private int mWeekSize;
 
+    public MyAnalogClock(Context context) {
+        super(context);
+    }
+
     /* renamed from: com.mediatek.watchapp.MyAnalogClock$1 */
     class C01301 implements Runnable {
         C01301() {
@@ -126,17 +133,17 @@ public class MyAnalogClock extends View {
     }
 
     private final class Receiver extends BroadcastReceiver {
-        final /* synthetic */ MyAnalogClock this$0;
+        //final /* synthetic */ MyAnalogClock this$0;
 
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if (action.equals("android.intent.action.BATTERY_CHANGED")) {
                 int level = intent.getIntExtra("level", -1);
                 if (level >= 0) {
-                    this.this$0.mBatteryLevel = level;
+                    MyAnalogClock.mBatteryLevel = level;
                 }
-                this.this$0.mBatteryLevel = intent.getIntExtra("level", -1);
-                this.this$0.mChanged = true;
+                MyAnalogClock.mBatteryLevel = intent.getIntExtra("level", -1);
+                MyAnalogClock.mChanged = true;
             } else if (!action.equals("com.sinsoft.action.health.step_count")) {
             }
         }

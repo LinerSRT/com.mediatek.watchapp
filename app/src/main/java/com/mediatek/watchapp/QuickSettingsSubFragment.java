@@ -220,7 +220,7 @@ public class QuickSettingsSubFragment extends Fragment {
             case 10:
             case 12:
             case 14:
-            case R$styleable.ActionPage_imageScaleMode /*15*/:
+            case R.styleable.ActionPage_imageScaleMode /*15*/:
                 if (dBm > -111 && dBm != 85) {
                     if (dBm < -91) {
                         if (dBm < -98) {
@@ -328,7 +328,7 @@ public class QuickSettingsSubFragment extends Fragment {
                 case 10:
                 case 12:
                 case 14:
-                case R$styleable.ActionPage_imageScaleMode /*15*/:
+                case R.styleable.ActionPage_imageScaleMode /*15*/:
                     this.mNetworkState.setImageDrawable(this.mContext.getResources().getDrawable(R.drawable.network_3g));
                     break;
                 case 13:

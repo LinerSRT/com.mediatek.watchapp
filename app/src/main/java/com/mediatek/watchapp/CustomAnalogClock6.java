@@ -115,7 +115,7 @@ public class CustomAnalogClock6 extends View {
             this.mCalendar = new Time();
         }
         this.mPaintToday = new Paint();
-        this.mPaintToday.setTypeface(Typeface.create(Typeface.SANS_SERIF, 1));
+        this.mPaintToday.setTypeface(Typeface.create(Typeface.SANS_SERIF, Typeface.BOLD));
         this.mPaintToday.setTextSize(25.0f);
         this.mPaintToday.setColor(-1);
         this.mPaintToday.setAntiAlias(true);

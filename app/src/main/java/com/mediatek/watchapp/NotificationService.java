@@ -1,5 +1,7 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
+import android.app.Notification;
 import android.app.Notification.Builder;
 import android.app.Notification.InboxStyle;
 import android.app.NotificationManager;
@@ -30,14 +32,14 @@ public class NotificationService extends NotificationListenerService {
                 NotificationService.this.removeNotification(intent.getExtras());
             } else if (intent != null && "com.mediatek.watchapp.DEMO_MODE_POST".equals(intent.getAction())) {
                 NotificationService.this.dumpData();
-                NotificationManager nManager = (NotificationManager) NotificationService.this.getSystemService("notification");
+                @SuppressLint("WrongConstant") NotificationManager nManager = (NotificationManager) NotificationService.this.getSystemService("notification");
                 Builder ncomp = new Builder(context);
                 ncomp.setContentTitle("+928005506My Notification");
                 ncomp.setContentText("Notification Listener Service Example");
                 ncomp.setTicker("Notification Listener Service Example");
-                ncomp.setSmallIcon(17301668);
+                //ncomp.setSmallIcon(17301668);
                 ncomp.setAutoCancel(true);
-                ncomp.setPriority(1);
+                ncomp.setPriority(Notification.PRIORITY_HIGH);
                 ncomp.setWhen(System.currentTimeMillis());
                 ncomp.setShowWhen(true);
                 nManager.notify((int) System.currentTimeMillis(), new InboxStyle(ncomp).addLine("line11111111111111111111111111111111111111111111111").addLine("line22222222222222222222222222222222222222222222222").addLine("line33333333333333333333333333333333333333333333333").addLine("line44444444444444444444444444444444444444444444444").addLine("line55555555555555555555555555555555555555555555555").addLine("line66666666666666666666666666666666666666666666666").addLine("line77777777777777777777777777777777777777777777777").addLine("line88888888888888888888888888888888888888888888888").addLine("line99999999999999999999999999999999999999999999999").setSummaryText("+9 more").setBigContentTitle("+0928005506Bigg").build());

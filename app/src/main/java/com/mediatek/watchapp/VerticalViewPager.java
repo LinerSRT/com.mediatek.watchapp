@@ -824,8 +824,6 @@ public class VerticalViewPager extends ViewGroup {
                 while (pos >= 0) {
                     if (extraHeightTop >= topHeightNeeded) {
                     }
-                    if (ii == null) {
-                    }
                     extraHeightTop += addNewItem(pos, itemIndex + 1).heightFactor;
                     curIndex++;
                     if (itemIndex < 0) {
@@ -845,8 +843,6 @@ public class VerticalViewPager extends ViewGroup {
                     pos = this.mCurItem + 1;
                     while (pos < N) {
                         if (extraHeightBottom >= bottomHeightNeeded) {
-                        }
-                        if (ii == null) {
                         }
                         itemIndex++;
                         extraHeightBottom += addNewItem(pos, itemIndex).heightFactor;
@@ -1052,7 +1048,7 @@ public class VerticalViewPager extends ViewGroup {
 
     ItemInfo infoForAnyChild(View child) {
         while (true) {
-            View parent = child.getParent();
+            View parent = (View) child.getParent();
             if (parent == this) {
                 return infoForChild(child);
             }
@@ -1061,7 +1057,6 @@ public class VerticalViewPager extends ViewGroup {
             }
             child = parent;
         }
-        return null;
     }
 
     ItemInfo infoForPosition(int position) {
@@ -1090,7 +1085,7 @@ public class VerticalViewPager extends ViewGroup {
         for (i = 0; i < size; i++) {
             LayoutParams lp;
             View child = getChildAt(i);
-            if (child.getVisibility() != 8) {
+            if (child.getVisibility() != GONE) {
                 lp = (LayoutParams) child.getLayoutParams();
                 if (lp != null && lp.isDecor) {
                     int hgrav = lp.gravity & 7;
@@ -1127,18 +1122,18 @@ public class VerticalViewPager extends ViewGroup {
                 }
             }
         }
-        this.mChildWidthMeasureSpec = MeasureSpec.makeMeasureSpec(childWidthSize, 1073741824);
-        this.mChildHeightMeasureSpec = MeasureSpec.makeMeasureSpec(childHeightSize, 1073741824);
+        this.mChildWidthMeasureSpec = MeasureSpec.makeMeasureSpec(childWidthSize, MeasureSpec.EXACTLY);
+        this.mChildHeightMeasureSpec = MeasureSpec.makeMeasureSpec(childHeightSize, MeasureSpec.EXACTLY);
         this.mInLayout = true;
         populate();
         this.mInLayout = false;
         size = getChildCount();
         for (i = 0; i < size; i++) {
-            child = getChildAt(i);
-            if (child.getVisibility() != 8) {
-                lp = (LayoutParams) child.getLayoutParams();
+            View child = getChildAt(i);
+            if (child.getVisibility() != GONE) {
+                LayoutParams lp = (LayoutParams) child.getLayoutParams();
                 if (lp == null || !lp.isDecor) {
-                    child.measure(this.mChildWidthMeasureSpec, MeasureSpec.makeMeasureSpec((int) (((float) childHeightSize) * lp.heightFactor), 1073741824));
+                    child.measure(this.mChildWidthMeasureSpec, MeasureSpec.makeMeasureSpec((int) (((float) childHeightSize) * lp.heightFactor), MeasureSpec.EXACTLY));
                 }
             }
         }
@@ -1185,7 +1180,7 @@ public class VerticalViewPager extends ViewGroup {
             int childLeft;
             int childTop;
             View child = getChildAt(i);
-            if (child.getVisibility() != 8) {
+            if (child.getVisibility() != GONE) {
                 lp = (LayoutParams) child.getLayoutParams();
                 if (lp.isDecor) {
                     int vgrav = lp.gravity & 112;
@@ -1206,7 +1201,7 @@ public class VerticalViewPager extends ViewGroup {
                             break;
                     }
                     switch (vgrav) {
-                        case R$styleable.ActionPage_buttonRippleColor /*16*/:
+                        case R.styleable.ActionPage_buttonRippleColor /*16*/:
                             childTop = Math.max((height - child.getMeasuredHeight()) / 2, paddingTop);
                             break;
                         case 48:
@@ -1229,17 +1224,17 @@ public class VerticalViewPager extends ViewGroup {
         }
         int childHeight = (height - paddingTop) - paddingBottom;
         for (i = 0; i < count; i++) {
-            child = getChildAt(i);
-            if (child.getVisibility() != 8) {
-                lp = (LayoutParams) child.getLayoutParams();
+            View child = getChildAt(i);
+            if (child.getVisibility() != GONE) {
+                LayoutParams lp = (LayoutParams) child.getLayoutParams();
                 if (!lp.isDecor) {
                     ItemInfo ii = infoForChild(child);
                     if (ii != null) {
-                        childLeft = paddingLeft;
-                        childTop = paddingTop + ((int) (((float) childHeight) * ii.offset));
+                        int childLeft = paddingLeft;
+                        int childTop = paddingTop + ((int) (((float) childHeight) * ii.offset));
                         if (lp.needsMeasure) {
                             lp.needsMeasure = false;
-                            child.measure(MeasureSpec.makeMeasureSpec((width - paddingLeft) - paddingRight, 1073741824), MeasureSpec.makeMeasureSpec((int) (((float) childHeight) * lp.heightFactor), 1073741824));
+                            child.measure(MeasureSpec.makeMeasureSpec((width - paddingLeft) - paddingRight, MeasureSpec.EXACTLY), MeasureSpec.makeMeasureSpec((int) (((float) childHeight) * lp.heightFactor), MeasureSpec.EXACTLY));
                         }
                         child.layout(childLeft, childTop, child.getMeasuredWidth() + childLeft, child.getMeasuredHeight() + childTop);
                     }
@@ -1315,7 +1310,7 @@ public class VerticalViewPager extends ViewGroup {
                 if (lp.isDecor) {
                     int childTop;
                     switch (lp.gravity & 112) {
-                        case R$styleable.ActionPage_buttonRippleColor /*16*/:
+                        case R.styleable.ActionPage_buttonRippleColor /*16*/:
                             childTop = Math.max((height - child.getMeasuredHeight()) / 2, paddingTop);
                             break;
                         case 48:
@@ -1450,7 +1445,6 @@ public class VerticalViewPager extends ViewGroup {
                 }
                 completeScroll(false);
                 this.mIsBeingDragged = false;
-                break;
                 break;
             case 2:
                 int activePointerId = this.mActivePointerId;
@@ -1874,7 +1868,7 @@ public class VerticalViewPager extends ViewGroup {
             currentFocused = null;
         } else if (currentFocused != null) {
             boolean isChild = false;
-            for (VerticalViewPager parent = currentFocused.getParent(); parent instanceof ViewGroup; parent = parent.getParent()) {
+            for (VerticalViewPager parent = (VerticalViewPager) currentFocused.getParent(); parent instanceof ViewGroup; parent = (VerticalViewPager) parent.getParent()) {
                 if (parent == this) {
                     isChild = true;
                     break;
@@ -1921,14 +1915,14 @@ public class VerticalViewPager extends ViewGroup {
         outRect.right = child.getRight();
         outRect.top = child.getTop();
         outRect.bottom = child.getBottom();
-        ViewGroup parent = child.getParent();
+        ViewGroup parent = (ViewGroup) child.getParent();
         while ((parent instanceof ViewGroup) && parent != this) {
             ViewGroup group = parent;
             outRect.left += group.getLeft();
             outRect.right += group.getRight();
             outRect.top += group.getTop();
             outRect.bottom += group.getBottom();
-            parent = group.getParent();
+            parent = (ViewGroup) group.getParent();
         }
         return outRect;
     }
@@ -1955,7 +1949,7 @@ public class VerticalViewPager extends ViewGroup {
         if (descendantFocusability != 393216) {
             for (int i = 0; i < getChildCount(); i++) {
                 View child = getChildAt(i);
-                if (child.getVisibility() == 0) {
+                if (child.getVisibility() == VISIBLE) {
                     ItemInfo ii = infoForChild(child);
                     if (ii != null && ii.position == this.mCurItem) {
                         child.addFocusables(views, direction, focusableMode);
@@ -1974,7 +1968,7 @@ public class VerticalViewPager extends ViewGroup {
     public void addTouchables(ArrayList<View> views) {
         for (int i = 0; i < getChildCount(); i++) {
             View child = getChildAt(i);
-            if (child.getVisibility() == 0) {
+            if (child.getVisibility() == VISIBLE) {
                 ItemInfo ii = infoForChild(child);
                 if (ii != null && ii.position == this.mCurItem) {
                     child.addTouchables(views);
@@ -1999,7 +1993,7 @@ public class VerticalViewPager extends ViewGroup {
         }
         for (int i = index; i != end; i += increment) {
             View child = getChildAt(i);
-            if (child.getVisibility() == 0) {
+            if (child.getVisibility() == VISIBLE) {
                 ItemInfo ii = infoForChild(child);
                 if (ii != null && ii.position == this.mCurItem && child.requestFocus(direction, previouslyFocusedRect)) {
                     return true;
@@ -2010,13 +2004,13 @@ public class VerticalViewPager extends ViewGroup {
     }
 
     public boolean dispatchPopulateAccessibilityEvent(AccessibilityEvent event) {
-        if (event.getEventType() == 4096) {
+        if (event.getEventType() == AccessibilityEvent.TYPE_VIEW_SCROLLED) {
             return super.dispatchPopulateAccessibilityEvent(event);
         }
         int childCount = getChildCount();
         for (int i = 0; i < childCount; i++) {
             View child = getChildAt(i);
-            if (child.getVisibility() == 0) {
+            if (child.getVisibility() == VISIBLE) {
                 ItemInfo ii = infoForChild(child);
                 if (ii != null && ii.position == this.mCurItem && child.dispatchPopulateAccessibilityEvent(event)) {
                     return true;

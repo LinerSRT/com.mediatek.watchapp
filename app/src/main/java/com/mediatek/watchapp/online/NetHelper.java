@@ -1,5 +1,6 @@
 package com.mediatek.watchapp.online;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -46,6 +47,7 @@ public class NetHelper {
             Log.e("net", " in  fetchOnlineFile()  exception : " + e2.toString());
             e2.printStackTrace();
         }
+        return input;
     }
 
     public static Long getOnlineFileLastModifiedTime(String file) {
@@ -59,7 +61,7 @@ public class NetHelper {
                 sendMsg(1);
                 return null;
             }
-            time = Long.valueOf(connection.getLastModified());
+            time = connection.getLastModified();
             return time;
         } catch (MalformedURLException e) {
             Log.e("net", " in  getOnlineFileLastModifiedTime()  exception : " + e.toString());
@@ -68,6 +70,7 @@ public class NetHelper {
             Log.e("net", " in  getOnlineFileLastModifiedTime()  exception : " + e2.toString());
             e2.printStackTrace();
         }
+        return time;
     }
 
     public static int getOnlineFileSize(String file) {
@@ -90,6 +93,7 @@ public class NetHelper {
             Log.e("net", " in  getOnlineFileLastModifiedTime()  exception : " + e2.toString());
             e2.printStackTrace();
         }
+        return size;
     }
 
     public static String getLastUpdateDate() {
@@ -109,7 +113,7 @@ public class NetHelper {
     }
 
     public static boolean checkNetIsOk(Context con) {
-        ConnectivityManager cm = (ConnectivityManager) con.getSystemService("connectivity");
+        @SuppressLint("WrongConstant") ConnectivityManager cm = (ConnectivityManager) con.getSystemService("connectivity");
         if (cm == null) {
             return false;
         }

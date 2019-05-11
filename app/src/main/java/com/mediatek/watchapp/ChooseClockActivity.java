@@ -174,15 +174,15 @@ public class ChooseClockActivity extends Activity {
                         }
                     });
                     if (position == this.mFilePath.length - 1 || this.mIndex == position) {
-                        deleteButton.setVisibility(8);
+                        deleteButton.setVisibility(View.GONE);
                     } else {
-                        deleteButton.setVisibility(0);
+                        deleteButton.setVisibility(View.VISIBLE);
                     }
                 } else if (this.mTitleIds[position].equals("add")) {
                     deleteButton.setBackgroundResource(R.drawable.refresh_list);
                     deleteButton.setOnClickListener(new C01052());
                 } else {
-                    deleteButton.setVisibility(8);
+                    deleteButton.setVisibility(View.GONE);
                 }
                 convertView.setTag(holder);
             } else {

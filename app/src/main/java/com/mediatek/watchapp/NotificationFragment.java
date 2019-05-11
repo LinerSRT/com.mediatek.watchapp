@@ -1,6 +1,7 @@
 package com.mediatek.watchapp;
 
 import android.animation.LayoutTransition;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.INotificationManager;
 import android.app.INotificationManager.Stub;
@@ -25,6 +26,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager.PageTransformer;
 import android.support.v4.view.ViewPager.SimpleOnPageChangeListener;
+import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,11 +34,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.mediatek.watchapp.NotificationData.Entry;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
 public class NotificationFragment extends Fragment {
     private static final String TAG = NotificationFragment.class.getSimpleName();
     private static NotificationFragment sInstance;
     private Context mContext;
-    private NotificationListenerService mListener = new C01361();
+    NotificationListenerService mListener = new NotificationService();
     private View mNoItems;
     private INotificationManager mNoMan;
     private int mPageCount = 0;
@@ -48,10 +53,7 @@ public class NotificationFragment extends Fragment {
     private Vibrator mVibrator;
 
     /* renamed from: com.mediatek.watchapp.NotificationFragment$1 */
-    class C01361 extends NotificationListenerService {
-        C01361() {
-        }
-
+    class NotificationService extends NotificationListenerService {
         public void onNotificationPosted(final StatusBarNotification mSbn) {
             NotificationFragment.this.getActivity().runOnUiThread(new Runnable() {
                 public void run() {
@@ -75,6 +77,8 @@ public class NotificationFragment extends Fragment {
                 }
             });
         }
+
+
 
         public void onNotificationRemoved(final StatusBarNotification mSbn) {
             NotificationFragment.this.getActivity().runOnUiThread(new Runnable() {
@@ -161,6 +165,7 @@ public class NotificationFragment extends Fragment {
         return sInstance;
     }
 
+    @SuppressLint("WrongConstant")
     public void onCreate(Bundle icicle) {
         logd("onCreate(%s)", icicle);
         super.onCreate(icicle);
@@ -169,14 +174,56 @@ public class NotificationFragment extends Fragment {
         this.mVibrator = (Vibrator) this.mContext.getSystemService("vibrator");
         this.mNoMan = Stub.asInterface(ServiceManager.getService("notification"));
         try {
-            this.mListener.registerAsSystemService(this.mContext, new ComponentName(this.mContext.getPackageName(), getClass().getCanonicalName()), -1);
-        } catch (RemoteException e) {
+            registerAsSystemService(this.mContext, new ComponentName(this.mContext.getPackageName(), getClass().getCanonicalName()), -1);
+        } catch (Exception e) {
             Log.e(TAG, "Cannot register listener", e);
         }
         IntentFilter filter = new IntentFilter();
         filter.addAction("com.mediatek.watchapp.NOTIFICATION_LISTENER.CANCEL");
         filter.addAction("android.intent.action.LOCALE_CHANGED");
         getActivity().registerReceiver(this.mReceiver, filter);
+    }
+
+    private void registerAsSystemService(Context mContext, ComponentName componentName, int i) {
+        String className = "android.service.notification.NotificationListenerService";
+        try {
+
+            @SuppressWarnings("rawtypes")
+            Class NotificationListenerService = Class.forName(className);
+
+            //Parameters Types
+            //you define the types of params you will pass to the method
+            @SuppressWarnings("rawtypes")
+            Class[] paramTypes= new Class[3];
+            paramTypes[0]= Context.class;
+            paramTypes[1]= ComponentName.class;
+            paramTypes[2] = int.class;
+
+            Method register = NotificationListenerService.getMethod("registerAsSystemService", paramTypes);
+
+            //Parameters of the registerAsSystemService method (see official doc for more info)
+            Object[] params= new Object[3];
+            Context ctx = null;
+            params[0]= ctx;
+            params[1]= new ComponentName(ctx.getPackageName(), ctx.getClass().getCanonicalName());
+            params[2]= -1; // All user of the device, -2 if only current user
+            // finally, invoke the function on our instance
+            register.invoke(i, params);
+
+        } catch (ClassNotFoundException e) {
+            Log.e(TAG, "Class not found", e);
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            Log.e(TAG, "No such method", e);
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            Log.e(TAG, "InvocationTarget", e);
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            Log.e(TAG, "Illegal access", e);
+            e.printStackTrace();
+        }
+
     }
 
     public void onDestroyView() {
@@ -287,7 +334,7 @@ public class NotificationFragment extends Fragment {
 
     private void setNoItemsVisibility(boolean mIsNoItems) {
         if (this.mNoItems != null) {
-            this.mNoItems.setVisibility(mIsNoItems ? 0 : 4);
+            this.mNoItems.setVisibility(mIsNoItems ? View.VISIBLE : View.INVISIBLE);
         }
     }
 

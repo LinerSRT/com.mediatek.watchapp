@@ -51,11 +51,11 @@ public class MoonPhase {
         Calendar when = Calendar.getInstance(Locale.getDefault());
         when.setTimeInMillis(System.currentTimeMillis());
         when.setTimeZone(TimeZone.getDefault());
-        when.set(11, 0);
-        when.set(12, 0);
-        when.set(13, 0);
-        int month = when.get(2) + 1;
-        int day = when.get(5);
+        when.set(Calendar.HOUR_OF_DAY, 0);
+        when.set(Calendar.MINUTE, 0);
+        when.set(Calendar.SECOND, 0);
+        int month = when.get(Calendar.MONTH) + 1;
+        int day = when.get(Calendar.DAY_OF_MONTH);
         String searchTime = DateFormat.format("yyyy-MM-dd kk:mm:ss", when).toString();
         SQLiteDatabase db = this.dbHelper.getReadableDatabase();
         db.beginTransaction();
@@ -96,7 +96,7 @@ public class MoonPhase {
         Calendar when = Calendar.getInstance(Locale.getDefault());
         when.setTimeInMillis(System.currentTimeMillis());
         when.setTimeZone(TimeZone.getDefault());
-        int year = when.get(1);
+        int year = when.get(Calendar.YEAR);
         SQLiteDatabase db = this.dbHelper.getWritableDatabase();
         db.beginTransaction();
         Cursor cursor = null;
@@ -148,10 +148,8 @@ public class MoonPhase {
                                 Log.d("reading DB", mLine);
                                 loadPhase(db, when, mLine, rowData);
                             } catch (IOException e3) {
-                                e2 = e3;
                                 bufferedReader = reader;
                             } catch (Throwable th2) {
-                                th = th2;
                                 bufferedReader = reader;
                             }
                         }
@@ -162,9 +160,8 @@ public class MoonPhase {
                             }
                         }
                     } catch (IOException e5) {
-                        e2 = e5;
                         try {
-                            Log.d("reading DB failed", e2.getMessage());
+                            Log.d("reading DB failed", e5.getMessage());
                             if (bufferedReader != null) {
                                 try {
                                     bufferedReader.close();
@@ -176,14 +173,13 @@ public class MoonPhase {
                             db.endTransaction();
                             db.close();
                         } catch (Throwable th3) {
-                            th = th3;
                             if (bufferedReader != null) {
                                 try {
                                     bufferedReader.close();
                                 } catch (IOException e7) {
                                 }
                             }
-                            throw th;
+                            throw th3;
                         }
                     }
                     db.setTransactionSuccessful();
@@ -195,7 +191,7 @@ public class MoonPhase {
             db.endTransaction();
             db.close();
         } catch (SQLiteException e8) {
-            if (!-assertionsDisabled) {
+            if (!assertionsDisabled) {
                 Object obj;
                 if (cursor != null) {
                     obj = 1;
@@ -214,19 +210,19 @@ public class MoonPhase {
 
     private void loadPhase(SQLiteDatabase db, Calendar when, String line, ContentValues rowData) {
         for (int phaseName : this.phaseOffsetKeys) {
-            int offset = ((Integer) this.phaseOffsets.get(Integer.valueOf(phaseName))).intValue();
+            int offset = (Integer) this.phaseOffsets.get(Integer.valueOf(phaseName));
             if (line.length() >= offset + 3) {
                 if (!line.substring(offset, offset + 3).trim().isEmpty()) {
-                    int month = ((Integer) this.monthNumbers.get(line.substring(offset, offset + 3).trim())).intValue();
-                    int day = Integer.valueOf(line.substring(offset + 4, offset + 6).trim()).intValue();
-                    int hour = Integer.valueOf(line.substring(offset + 7, offset + 9).trim()).intValue();
-                    int minute = Integer.valueOf(line.substring(offset + 10, offset + 12).trim()).intValue();
-                    when.set(2, month);
-                    when.set(5, day);
-                    when.set(11, hour);
-                    when.set(12, minute);
-                    when.set(13, 0);
-                    when.set(14, 0);
+                    int month = (Integer) this.monthNumbers.get(line.substring(offset, offset + 3).trim());
+                    int day = Integer.valueOf(line.substring(offset + 4, offset + 6).trim());
+                    int hour = Integer.valueOf(line.substring(offset + 7, offset + 9).trim());
+                    int minute = Integer.valueOf(line.substring(offset + 10, offset + 12).trim());
+                    when.set(Calendar.MONTH, month);
+                    when.set(Calendar.DAY_OF_MONTH, day);
+                    when.set(Calendar.HOUR_OF_DAY, hour);
+                    when.set(Calendar.MINUTE, minute);
+                    when.set(Calendar.SECOND, 0);
+                    when.set(Calendar.MILLISECOND, 0);
                     String moon_phase = DateFormat.format("yyyy-MM-dd kk:mm:ss", when).toString();
                     rowData.put("phase", Integer.valueOf(phaseName));
                     rowData.put("occurs_at", moon_phase);

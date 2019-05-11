@@ -40,7 +40,7 @@ public class AppListUtil implements OnItemClickListener {
                 Intent intent = new Intent("android.intent.action.MAIN");
                 intent.addCategory("android.intent.category.LAUNCHER");
                 intent.setComponent(componentName);
-                intent.setFlags(270532608);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 AppArcListViewAdapter.this.mContext.startActivity(intent);
             }
         }
@@ -122,7 +122,7 @@ public class AppListUtil implements OnItemClickListener {
         Intent intent = new Intent("android.intent.action.MAIN");
         intent.addCategory("android.intent.category.LAUNCHER");
         intent.setComponent(componentName);
-        intent.setFlags(270532608);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         this.mContext.startActivity(intent);
     }
 

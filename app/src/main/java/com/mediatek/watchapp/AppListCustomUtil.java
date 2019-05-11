@@ -11,6 +11,7 @@ import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Align;
+import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
@@ -227,7 +228,7 @@ public class AppListCustomUtil {
         if (redbackground9 == null) {
             redbackground9 = context.getResources().getDrawable(R.drawable.redbackground10);
         }
-        int iconSize = (int) context.getResources().getDimension(17104896);
+        int iconSize = (int) 22;
         Log.i("AppListCustomUtil", "iconSize=" + iconSize);
         Bitmap SmsIcon = Bitmap.createBitmap(140, 140, Config.ARGB_8888);
         Canvas canvas = new Canvas(SmsIcon);
@@ -320,7 +321,7 @@ public class AppListCustomUtil {
     public static Bitmap drawableToBitmap(Drawable drawable) {
         int width = drawable.getIntrinsicWidth();
         int height = drawable.getIntrinsicHeight();
-        Bitmap bitmap = Bitmap.createBitmap(width, height, drawable.getOpacity() != -1 ? Config.ARGB_8888 : Config.RGB_565);
+        Bitmap bitmap = Bitmap.createBitmap(width, height, drawable.getOpacity() != PixelFormat.OPAQUE ? Config.ARGB_8888 : Config.RGB_565);
         Canvas canvas = new Canvas(bitmap);
         drawable.setBounds(0, 0, width, height);
         drawable.draw(canvas);

@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -50,6 +51,7 @@ public class MusicMediaFragment extends Fragment implements OnClickListener {
         registerReceiver();
     }
 
+    @SuppressLint("WrongConstant")
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle) {
         View view = inflater.inflate(R.layout.music_media_fragment, container, false);
         this.mLayBackground = (RelativeLayout) view.findViewById(R.id.lay_background);

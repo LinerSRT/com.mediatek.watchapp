@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -22,6 +23,7 @@ public class BootComoletedReceiver extends BroadcastReceiver {
         }
     }
 
+    @SuppressLint("WrongConstant")
     private void onBatterySaveIf() {
         boolean btySaver = true;
         Log.d("WatchApp", "onBatterySaveIf");

@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,7 +45,7 @@ public class AppMatrixFragment extends Fragment implements OnTouchListener {
             Intent intent = new Intent("android.intent.action.MAIN");
             intent.addCategory("android.intent.category.LAUNCHER");
             intent.setComponent(componet);
-            intent.setFlags(270532608);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             AppMatrixFragment.this.getActivity().startActivity(intent);
         }
     }
@@ -56,13 +57,13 @@ public class AppMatrixFragment extends Fragment implements OnTouchListener {
 
         public void onScrollStateChanged(AbsListView view, int scrollState) {
             if (scrollState == 0) {
-                AppMatrixFragment.this.circlescoller.setVisibility(8);
+                AppMatrixFragment.this.circlescoller.setVisibility(View.GONE);
                 AppMatrixFragment.this.circlescoller.invalidate();
             } else if (scrollState == 1) {
-                AppMatrixFragment.this.circlescoller.setVisibility(0);
+                AppMatrixFragment.this.circlescoller.setVisibility(View.VISIBLE);
                 AppMatrixFragment.this.circlescoller.invalidate();
             } else if (scrollState == 2) {
-                AppMatrixFragment.this.circlescoller.setVisibility(0);
+                AppMatrixFragment.this.circlescoller.setVisibility(View.VISIBLE);
                 AppMatrixFragment.this.circlescoller.invalidate();
             }
         }
@@ -114,7 +115,7 @@ public class AppMatrixFragment extends Fragment implements OnTouchListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Log.d("AppMatrixFragment", "onCreateView.this:" + this);
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.applist_matrix, container, false);
-        int w = ((WindowManager) getActivity().getSystemService("window")).getDefaultDisplay().getWidth();
+        @SuppressLint("WrongConstant") int w = ((WindowManager) getActivity().getSystemService("window")).getDefaultDisplay().getWidth();
         this.mAppListView = (GridView) rootView.findViewById(R.id.app_matrix_view);
         this.circlescoller = (CircleScoller) rootView.findViewById(R.id.circlescoller);
         this.circlescoller.setScreenSize(w, w);

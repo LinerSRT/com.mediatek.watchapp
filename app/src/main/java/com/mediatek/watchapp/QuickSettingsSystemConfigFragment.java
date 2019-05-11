@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.app.NotificationManager;
 import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;
@@ -35,6 +36,11 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.lang.reflect.Method;
+import java.util.Objects;
+
+import static android.content.Context.TELEPHONY_SERVICE;
+
 public class QuickSettingsSystemConfigFragment extends Fragment {
     private boolean SimState = false;
     private final String TAG = "QuickSettingsSystemConfigFragment";
@@ -57,7 +63,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     View.OnClickListener mOnClickListener = new C01514();
     OnLongClickListener mOnLongClickListener = new C01503();
     private PowerManager mPowerManager;
-    private TelephonyManager mTelephonyManager;
+    TelephonyManager mTelephonyManager;
     private WifiManager mWifiManager;
     private ImageView mWifiState;
     private ImageView m_mobile_data_settings;
@@ -111,6 +117,49 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
         }
     }
 
+    public void setMobileDataState(boolean mobileDataEnabled)
+    {
+        try
+        {
+            TelephonyManager telephonyService = (TelephonyManager) mContext.getSystemService(TELEPHONY_SERVICE);
+
+            Method setMobileDataEnabledMethod = telephonyService.getClass().getDeclaredMethod("setDataEnabled", boolean.class);
+
+            if (null != setMobileDataEnabledMethod)
+            {
+                setMobileDataEnabledMethod.invoke(telephonyService, mobileDataEnabled);
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.e(TAG, "Error setting mobile data state", ex);
+        }
+    }
+
+    public boolean getMobileDataState()
+    {
+        try
+        {
+            TelephonyManager telephonyService = (TelephonyManager) mContext.getSystemService(TELEPHONY_SERVICE);
+
+            Method getMobileDataEnabledMethod = telephonyService.getClass().getDeclaredMethod("getDataEnabled");
+
+            if (null != getMobileDataEnabledMethod)
+            {
+                boolean mobileDataEnabled = (Boolean) getMobileDataEnabledMethod.invoke(telephonyService);
+
+                return mobileDataEnabled;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.e(TAG, "Error getting mobile data state", ex);
+        }
+
+        return false;
+    }
+
+
     /* renamed from: com.mediatek.watchapp.QuickSettingsSystemConfigFragment$4 */
     class C01514 implements View.OnClickListener {
         C01514() {
@@ -130,28 +179,28 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
                     quickSettingsSystemConfigFragment.setNotificationComingState(z);
                     if (!status) {
                         QuickSettingsSystemConfigFragment.this.m_notifyStyle.setImageResource(R.drawable.zenmode_off);
-                        Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, QuickSettingsSystemConfigFragment.this.mContext.getResources().getString(R.string.send_info_text1).toString(), 0).show();
+                        Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, QuickSettingsSystemConfigFragment.this.mContext.getResources().getString(R.string.send_info_text1).toString(), Toast.LENGTH_SHORT).show();
                         break;
                     }
                     QuickSettingsSystemConfigFragment.this.m_notifyStyle.setImageResource(R.drawable.zenmode_on);
-                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, QuickSettingsSystemConfigFragment.this.mContext.getResources().getString(R.string.send_info_text2).toString(), 0).show();
+                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, QuickSettingsSystemConfigFragment.this.mContext.getResources().getString(R.string.send_info_text2).toString(), Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.low:
-                    QuickSettingsSystemConfigFragment.this.midd.setVisibility(0);
-                    QuickSettingsSystemConfigFragment.this.high.setVisibility(8);
-                    QuickSettingsSystemConfigFragment.this.low.setVisibility(8);
+                    QuickSettingsSystemConfigFragment.this.midd.setVisibility(View.VISIBLE);
+                    QuickSettingsSystemConfigFragment.this.high.setVisibility(View.GONE);
+                    QuickSettingsSystemConfigFragment.this.low.setVisibility(View.GONE);
                     QuickSettingsSystemConfigFragment.this.setBrightnessLevel(((QuickSettingsSystemConfigFragment.this.maxBrightnessLevel - QuickSettingsSystemConfigFragment.this.minBrightnessLevel) / 2) + QuickSettingsSystemConfigFragment.this.minBrightnessLevel);
                     break;
                 case R.id.high:
-                    QuickSettingsSystemConfigFragment.this.midd.setVisibility(8);
-                    QuickSettingsSystemConfigFragment.this.high.setVisibility(8);
-                    QuickSettingsSystemConfigFragment.this.low.setVisibility(0);
+                    QuickSettingsSystemConfigFragment.this.midd.setVisibility(View.GONE);
+                    QuickSettingsSystemConfigFragment.this.high.setVisibility(View.GONE);
+                    QuickSettingsSystemConfigFragment.this.low.setVisibility(View.VISIBLE);
                     QuickSettingsSystemConfigFragment.this.setBrightnessLevel(QuickSettingsSystemConfigFragment.this.minBrightnessLevel);
                     break;
                 case R.id.midd:
-                    QuickSettingsSystemConfigFragment.this.midd.setVisibility(8);
-                    QuickSettingsSystemConfigFragment.this.high.setVisibility(0);
-                    QuickSettingsSystemConfigFragment.this.low.setVisibility(8);
+                    QuickSettingsSystemConfigFragment.this.midd.setVisibility(View.GONE);
+                    QuickSettingsSystemConfigFragment.this.high.setVisibility(View.VISIBLE);
+                    QuickSettingsSystemConfigFragment.this.low.setVisibility(View.GONE);
                     QuickSettingsSystemConfigFragment.this.setBrightnessLevel(QuickSettingsSystemConfigFragment.this.maxBrightnessLevel);
                     break;
                 case R.id.system_screenon_guesture:
@@ -175,7 +224,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
                         QuickSettingsSystemConfigFragment.this.getActivity().sendBroadcast(intent);
                         Log.d("QuickSettingsSystemConfigFragment", "start ScreenSensorService");
                     }
-                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, toast_info, 0).show();
+                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, toast_info, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.system_airplane_mode:
                     if (QuickSettingsSystemConfigFragment.this.isAirPlaneModeOn()) {
@@ -187,25 +236,26 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
                         QuickSettingsSystemConfigFragment.this.m_system_airplane_mode.setImageResource(R.drawable.smart_watch_airmode_on);
                         toast_info = QuickSettingsSystemConfigFragment.this.mContext.getResources().getString(R.string.airplane_mode_on).toString();
                     }
-                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, toast_info, 0).show();
+                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, toast_info, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.mobile_data_settings:
-                    if (TelephonyManager.getDefault().hasIccCard()) {
+                    TelephonyManager tm = (TelephonyManager) mContext.getSystemService(TELEPHONY_SERVICE);
+
+                    if (tm.hasIccCard()) {
                         if (!QuickSettingsSystemConfigFragment.this.isAirPlaneModeOn() && QuickSettingsSystemConfigFragment.this.mTelephonyManager.getCallState() == 0) {
-                            boolean isEnable = QuickSettingsSystemConfigFragment.this.mTelephonyManager.getDataEnabled(1);
+                            boolean isEnable = getMobileDataState();
                             TelephonyManager get4 = QuickSettingsSystemConfigFragment.this.mTelephonyManager;
                             if (!isEnable) {
                                 z2 = true;
                             }
-                            get4.setDataEnabled(1, z2);
+                            setMobileDataState(z2);
                             QuickSettingsSystemConfigFragment.this.myHandler.sendEmptyMessageDelayed(55, 2000);
                             break;
                         }
                         return;
                     }
-                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, R.string.mobiledata_remind, 0).show();
+                    Toast.makeText(QuickSettingsSystemConfigFragment.this.mContext, R.string.mobiledata_remind, Toast.LENGTH_SHORT).show();
                     return;
-                    break;
                 case R.id.system_connected_device:
                     if (!QuickSettingsSystemConfigFragment.this.isGpsModeOn()) {
                         QuickSettingsSystemConfigFragment.this.setGpsModeOn(true);
@@ -219,6 +269,9 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
         }
     }
 
+
+
+
     /* renamed from: com.mediatek.watchapp.QuickSettingsSystemConfigFragment$5 */
     class C01535 implements OnClickListener {
         C01535() {
@@ -226,21 +279,22 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
 
         public void onClick(DialogInterface dialog, int which) {
             boolean z = false;
-            final int subId = SubscriptionManager.getSubIdUsingPhoneId(0);
+            TelephonyManager tm = (TelephonyManager) mContext.getSystemService(TELEPHONY_SERVICE);
             if (which == -1) {
                 QuickSettingsSystemConfigFragment.this.setNetworkTypeDone = false;
-                boolean isEnable = QuickSettingsSystemConfigFragment.this.mTelephonyManager.getDataEnabled(subId);
+                boolean isEnable = getMobileDataState();
                 TelephonyManager get4 = QuickSettingsSystemConfigFragment.this.mTelephonyManager;
                 if (!isEnable) {
                     z = true;
                 }
-                get4.setDataEnabled(subId, z);
+                setMobileDataState(z);
                 QuickSettingsSystemConfigFragment.this.myHandler.sendEmptyMessageDelayed(55, 2000);
                 final int networkType = !isEnable ? 1 : 0;
                 new Thread(new Runnable() {
                     public void run() {
-                        QuickSettingsSystemConfigFragment.this.mTelephonyManager.setPreferredNetworkType(subId, networkType);
-                        Global.putInt(QuickSettingsSystemConfigFragment.this.mContext.getContentResolver(), "preferred_network_mode" + subId, networkType);
+
+                        //QuickSettingsSystemConfigFragment.this.mTelephonyManager.setPreferredNetworkType(subId, networkType);
+                        Global.putInt(QuickSettingsSystemConfigFragment.this.mContext.getContentResolver(), "preferred_network_mode" + 1, networkType);
                         QuickSettingsSystemConfigFragment.this.setNetworkTypeDone = true;
                     }
                 }).start();
@@ -327,9 +381,9 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
         }
 
         public void onClick(View v) {
-            if (QuickSettingsSystemConfigFragment.this.mBTadapter.getState() == 10) {
+            if (QuickSettingsSystemConfigFragment.this.mBTadapter.getState() == BluetoothAdapter.STATE_OFF) {
                 QuickSettingsSystemConfigFragment.this.mBTadapter.enable();
-            } else if (QuickSettingsSystemConfigFragment.this.mBTadapter.getState() == 12) {
+            } else if (QuickSettingsSystemConfigFragment.this.mBTadapter.getState() == BluetoothAdapter.STATE_ON) {
                 QuickSettingsSystemConfigFragment.this.mBTadapter.disable();
             }
         }
@@ -346,13 +400,14 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
         }
     }
 
+    @SuppressLint("WrongConstant")
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         this.mContext = getActivity();
         this.mPowerManager = (PowerManager) this.mContext.getSystemService("power");
         getMaxAndMinBrightnessLevel();
-        this.mTelephonyManager = TelephonyManager.from(this.mContext);
-        this.SimState = TelephonyManager.getDefault().hasIccCard();
+        //this.mTelephonyManager = TelephonyManager.from(this.mContext);
+        //this.SimState = TelephonyManager.getDefault().hasIccCard();
         this.mIntentFilter = new IntentFilter();
         this.mIntentFilter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
         this.mIntentFilter.addAction("android.intent.action.ANY_DATA_STATE");
@@ -447,7 +502,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     public void onResume() {
         super.onResume();
         initViews();
-        if (this.mWifiManager.getWifiState() == 1) {
+        if (this.mWifiManager.getWifiState() == WifiManager.WIFI_STATE_DISABLED) {
             wifiDisConnectedShow(this.mContext);
         } else {
             wifiConnectedShow(this.mContext);
@@ -474,7 +529,8 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     }
 
     private void setMobiledataInfo() {
-        if (this.mTelephonyManager.getDataEnabled(1) && !isAirPlaneModeOn() && TelephonyManager.getDefault().hasIccCard()) {
+        TelephonyManager tm = (TelephonyManager) mContext.getSystemService(TELEPHONY_SERVICE);
+        if (getMobileDataState() && !isAirPlaneModeOn() && Objects.requireNonNull(tm).hasIccCard()) {
             this.m_mobile_data_settings.setImageResource(R.drawable.smart_watch_mobile_data_on);
         } else {
             this.m_mobile_data_settings.setImageResource(R.drawable.smart_watch_mobile_data_off);
@@ -483,26 +539,27 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
 
     private void setBrightnessLevelBg() {
         if (getCurrBrightnessLevel() == 0) {
-            this.midd.setVisibility(8);
-            this.high.setVisibility(8);
-            this.low.setVisibility(0);
+            this.midd.setVisibility(View.GONE);
+            this.high.setVisibility(View.GONE);
+            this.low.setVisibility(View.VISIBLE);
         } else if (getCurrBrightnessLevel() == 1) {
-            this.midd.setVisibility(0);
-            this.high.setVisibility(8);
-            this.low.setVisibility(8);
+            this.midd.setVisibility(View.VISIBLE);
+            this.high.setVisibility(View.GONE);
+            this.low.setVisibility(View.GONE);
         } else if (getCurrBrightnessLevel() == 2) {
-            this.midd.setVisibility(8);
-            this.high.setVisibility(0);
-            this.low.setVisibility(8);
+            this.midd.setVisibility(View.GONE);
+            this.high.setVisibility(View.VISIBLE);
+            this.low.setVisibility(View.GONE);
         }
     }
 
     private boolean getNotificationComingState() {
-        return this.mNoMan.getZenMode() != 3;
+        //return mNoMan.getAutomaticZenRule() != 3;
+        return false;
     }
 
     private void setNotificationComingState(boolean b) {
-        this.mNoMan.setZenMode(b ? 0 : 3, null, "F");
+        //this.mNoMan.setZenMode(b ? 0 : 3, null, "F");
     }
 
     private boolean getSystemRaiseWakeUp() {
@@ -536,7 +593,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
         Global.putInt(this.mContext.getContentResolver(), "airplane_mode_on", on ? 1 : 0);
         Intent intent = new Intent("android.intent.action.AIRPLANE_MODE");
         intent.putExtra("state", on);
-        this.mContext.sendBroadcastAsUser(intent, UserHandle.CURRENT);
+        mContext.sendBroadcast(intent);
         Log.d("QuickSettingsSystemConfigFragment", "setAirPlaneModeOff()");
     }
 
@@ -559,12 +616,12 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     }
 
     private void getMaxAndMinBrightnessLevel() {
-        this.maxBrightnessLevel = this.mPowerManager.getMaximumScreenBrightnessSetting();
-        this.minBrightnessLevel = this.mPowerManager.getMinimumScreenBrightnessSetting();
+       // this.maxBrightnessLevel = this.mPowerManager.getMaximumScreenBrightnessSetting();
+       // this.minBrightnessLevel = this.mPowerManager.getMinimumScreenBrightnessSetting();
     }
 
     private void setBrightnessLevel(int level) {
-        this.mPowerManager.setBacklightBrightness(level);
+        //this.mPowerManager.setBacklightBrightness(level);
         System.putInt(this.mContext.getContentResolver(), "screen_brightness", level);
     }
 
@@ -575,7 +632,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     }
 
     private void wifiConnectedShow(Context context) {
-        int level = ((WifiManager) context.getSystemService("wifi")).getConnectionInfo().getRssi();
+        @SuppressLint("WrongConstant") int level = ((WifiManager) context.getSystemService("wifi")).getConnectionInfo().getRssi();
         wifiAnimaStop();
         if (level > -55) {
             this.mWifiState.setImageDrawable(this.mContext.getResources().getDrawable(R.drawable.wifi_4));
@@ -609,7 +666,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     }
 
     private void wifiAnimaStart() {
-        this.mWifiState.setImageResource(R.anim.anima_wifi);
+        this.mWifiState.setImageResource(R.drawable.anima_wifi);
         this.mAnimationDrawable = (AnimationDrawable) this.mWifiState.getDrawable();
         this.mAnimationDrawable.start();
     }
@@ -621,7 +678,7 @@ public class QuickSettingsSystemConfigFragment extends Fragment {
     }
 
     private void BTAnimaStart() {
-        this.mBTState.setImageResource(R.anim.anima_bt);
+        this.mBTState.setImageResource(R.drawable.anima_bt);
         this.mAnimBTDrawable = (AnimationDrawable) this.mBTState.getDrawable();
         this.mAnimBTDrawable.start();
     }

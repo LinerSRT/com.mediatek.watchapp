@@ -54,7 +54,7 @@ public class AppArcListFragment extends Fragment {
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.arc_app_list, container, false);
         this.mApplistUtil = new AppListUtil(rootView.getContext());
         this.mAppListView = (WearableRecyclerView) rootView.findViewById(R.id.recycler_launcher_view);
-        this.mAppListView.showRoundScrolbar(true);
+        // Curve scroll bar this.mAppListView.showRoundScrolbar(true);
         this.mAppListView.setCenterEdgeItems(true);
         this.mAppListView.setLayoutManager(new MyLauncherChildLayoutManager(rootView.getContext()));
         this.mAppListView.setAdapter(this.mApplistUtil.getArcAdapter());

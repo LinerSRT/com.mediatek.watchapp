@@ -145,7 +145,7 @@ public class NotificationSubFragment extends Fragment implements Callback {
         } catch (CanceledException e) {
             Log.w(TAG, "Delete intent, PendingIntent.CanceledException");
         }
-        this.mRootView.setVisibility(8);
+        this.mRootView.setVisibility(View.GONE);
     }
 
     public void onAttach(Activity activity) {
@@ -155,7 +155,7 @@ public class NotificationSubFragment extends Fragment implements Callback {
 
     public void expandLayout() {
         if (isCollapse()) {
-            this.mOptions.setVisibility(8);
+            this.mOptions.setVisibility(View.GONE);
             if (this.mTextView != null) {
                 this.mTextView.setMaxLines(15);
                 Bundle mArgs = NotificationCompat.getExtras(this.mSbn.getNotification());
@@ -171,18 +171,18 @@ public class NotificationSubFragment extends Fragment implements Callback {
 
     public void collapseLayout() {
         if (!isCollapse()) {
-            this.mOptions.setVisibility(0);
+            this.mOptions.setVisibility(View.VISIBLE);
             loadAndSetContentText(this.mSbn.getNotification());
-            this.mAction1.setVisibility(8);
-            this.mAction2.setVisibility(8);
-            this.mAction3.setVisibility(8);
-            this.mOpen.setVisibility(8);
-            this.mDismiss.setVisibility(8);
+            this.mAction1.setVisibility(View.GONE);
+            this.mAction2.setVisibility(View.GONE);
+            this.mAction3.setVisibility(View.GONE);
+            this.mOpen.setVisibility(View.GONE);
+            this.mDismiss.setVisibility(View.GONE);
         }
     }
 
     private boolean isCollapse() {
-        return this.mOptions.getVisibility() == 0;
+        return this.mOptions.getVisibility() == View.VISIBLE;
     }
 
     private void requestDismiss() {
@@ -215,16 +215,16 @@ public class NotificationSubFragment extends Fragment implements Callback {
         }
         Log.d(TAG, "when: " + new Date(mWhen));
         if (mWhen == 0) {
-            this.mChronometer.setVisibility(8);
-            this.mTime.setVisibility(4);
+            this.mChronometer.setVisibility(View.GONE);
+            this.mTime.setVisibility(View.INVISIBLE);
         } else if (NotificationHelper.getShowChronometer(NotificationCompat.getExtras(mNotification))) {
             if (this.mChronometer != null) {
-                this.mChronometer.setVisibility(0);
+                this.mChronometer.setVisibility(View.VISIBLE);
                 this.mChronometer.setBase((SystemClock.elapsedRealtime() - System.currentTimeMillis()) + mWhen);
                 this.mChronometer.start();
             }
         } else if (this.mTime != null) {
-            this.mTime.setVisibility(0);
+            this.mTime.setVisibility(View.VISIBLE);
             this.mTime.setTime(mWhen);
         }
     }
@@ -293,25 +293,25 @@ public class NotificationSubFragment extends Fragment implements Callback {
         String mTagOpen = (String) this.mOpen.getTag();
         Log.d(TAG, "setActionsVisibility");
         if (mTag1 == null || !mTag1.equals("VISIBLE")) {
-            this.mAction1.setVisibility(8);
+            this.mAction1.setVisibility(View.GONE);
         } else {
-            this.mAction1.setVisibility(0);
+            this.mAction1.setVisibility(View.VISIBLE);
         }
         if (mTag2 == null || !mTag2.equals("VISIBLE")) {
-            this.mAction2.setVisibility(8);
+            this.mAction2.setVisibility(View.GONE);
         } else {
-            this.mAction2.setVisibility(0);
+            this.mAction2.setVisibility(View.VISIBLE);
         }
         if (mTag3 == null || !mTag3.equals("VISIBLE")) {
-            this.mAction3.setVisibility(8);
+            this.mAction3.setVisibility(View.GONE);
         } else {
-            this.mAction3.setVisibility(0);
+            this.mAction3.setVisibility(View.VISIBLE);
         }
         if (mTagOpen != null && mTagOpen.equals("VISIBLE")) {
-            this.mOpen.setVisibility(0);
+            this.mOpen.setVisibility(View.VISIBLE);
         }
         if (this.mDismiss != null) {
-            this.mDismiss.setVisibility(0);
+            this.mDismiss.setVisibility(View.GONE);
         }
     }
 

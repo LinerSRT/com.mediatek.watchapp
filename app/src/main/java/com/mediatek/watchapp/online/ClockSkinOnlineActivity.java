@@ -1,5 +1,6 @@
 package com.mediatek.watchapp.online;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
@@ -457,7 +458,7 @@ public class ClockSkinOnlineActivity extends Activity {
     private void showDialog(int ridTitle, int ridMsg) {
         Builder builder = new Builder(this);
         builder.setCancelable(false);
-        builder.setIcon(17301659);
+        // dont set icon for now builder.setIcon(17301659);
         builder.setTitle(ridTitle);
         builder.setMessage(ridMsg);
         builder.setPositiveButton(R.string.btn_alert_ok, new C01816());
@@ -492,14 +493,14 @@ public class ClockSkinOnlineActivity extends Activity {
         switch (item.getItemId()) {
             case 0:
                 Builder builder = new Builder(this);
-                builder.setIcon(17301659);
+                //dot set icon for now builder.setIcon(17301659);
                 builder.setTitle(getString(R.string.online_font_statistics));
                 builder.setMessage(getString(R.string.online_font_count) + NetHelper.getOnlineThemeListSize() + "\n" + getString(R.string.online_theme_update_time) + NetHelper.getLastUpdateDate());
                 builder.setPositiveButton(R.string.btn_alert_ok, new C01827());
                 builder.create().show();
                 break;
             case 1:
-                Editor ed = getSharedPreferences("updateRecord", 2).edit();
+                Editor ed = getSharedPreferences("updateRecord", MODE_WORLD_WRITEABLE).edit();
                 ed.putString("last_update", "201201010000");
                 ed.commit();
                 this.currCount = 0;
@@ -527,6 +528,7 @@ public class ClockSkinOnlineActivity extends Activity {
         return true;
     }
 
+    @SuppressLint("WrongConstant")
     private boolean isServiceRunning() {
         for (RunningServiceInfo service : ((ActivityManager) getSystemService("activity")).getRunningServices(Integer.MAX_VALUE)) {
             if (!"com.wiiteck.clockpreviewer.online.ClockSkinDownloadService".equals(service.service.getClassName())) {

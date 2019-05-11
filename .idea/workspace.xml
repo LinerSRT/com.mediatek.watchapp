@@ -16,7 +16,45 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5aaabc-c324-43a4-bac1-0f860913dda1" name="Default" comment="" />
+    <list default="true" id="0b5aaabc-c324-43a4-bac1-0f860913dda1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppArcListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppArcListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppFitnessListUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppFitnessModeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListRoundFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListRoundFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppMatrixFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppMatrixFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BootComoletedReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BootComoletedReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ChooseClockActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ChooseClockActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/NetHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/NetHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anima_bt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/anima_bt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anima_wifi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/anima_wifi.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,32 +75,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ActionPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="52" column="38" lean-forward="true" selection-end-line="178" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$style.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsStepFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/StepsMeterView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SwipeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="1999" column="17" lean-forward="true" selection-start-line="1999" selection-start-column="17" selection-end-line="1999" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="610" column="90" selection-start-line="610" selection-start-column="90" selection-end-line="610" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchAppWidgetHost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteDefaultClockView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15073">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,9 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m_system_screenon_guesture</find>
-      <find>CMD_RAISE_TO_WAKE</find>
-      <find>select</find>
       <find>getSystemRaiseWakeUp</find>
       <find>CustomDigitalClockSave</find>
       <find>setAppListStyle</find>
@@ -108,56 +203,30 @@
       <find>setPower</find>
       <find>Create</find>
       <find>ActionPage</find>
+      <find>mListener</find>
+      <find>mTelephonyManager</find>
+      <find>Icc</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/crop_image_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/online_listview.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_advanced_item_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/quicksettings_fragment_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/music_media_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/Watch_LD_01.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MiniColumnChart.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/notification_content_layout.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ClockUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/imagepicker/ImagePicker.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDialClockFace.java" />
-        <option value="Y:/androidN/C7S_DMN640/C7S/alps/packages/wear/WearAssistantPro/WearAssistantPro/java/com/wiitetech/WiiWatchPro/WiiBluetoothManagement.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsCalorieFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/quicksetting_system_config.xml" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mediatek/watchapp/BuildConfig.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/WearableRecyclerViewCustom.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/BounceListView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDBHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDownloadService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/WearableListView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PowerManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_screen_slide.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/percent/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/ComplicationData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/watchface/WatchFaceStyle.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/SimpleAnimatorListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/SimpleAnimatorListener2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/SimpleAnimatorListener2.java" />
@@ -165,8 +234,40 @@
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeFormatText.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeDifferenceText.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$styleable.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ActionPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDownloadService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/NetHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppArcListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppFitnessListUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListRoundFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppMatrixFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BootComoletedReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ChooseClockActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java" />
       </list>
     </option>
   </component>
@@ -175,6 +276,7 @@
     <option name="width" value="959" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -190,46 +292,13 @@
             <path>
               <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="support" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="support" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="wearable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="support" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="wearable" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="myView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
@@ -237,17 +306,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="watchapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="LQX-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -412,10 +470,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Resources Explorer" weight="0.32960597" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14536741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -424,17 +481,17 @@
       <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.38586956" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.38586956" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.5734494" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -448,435 +505,375 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notification_content_layout.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CircleScoller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsDayFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ClockUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsDistanceFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CrashHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="95" column="27" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="27" />
-          <folding>
-            <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2521#2522#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsStepFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="190">
+          <caret line="117" column="87" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="118" column="17" lean-forward="true" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://Y:/androidN/C7S_Release/C7S/alps/packages/wear/WearAppUI/WearHealthUI/src/creator/android/service/PedometerDataService.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="94" column="58" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="58" />
-          <folding>
-            <element signature="e#5953#5954#0" expanded="true" />
-            <element signature="e#5990#5991#0" expanded="true" />
-            <element signature="e#6040#6041#0" expanded="true" />
-            <element signature="e#6075#6076#0" expanded="true" />
-            <element signature="e#16523#16524#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-94">
+          <caret line="460" column="45" selection-start-line="460" selection-start-column="45" selection-end-line="460" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://Y:/androidN/C7S_Release/C7S/alps/packages/wear/WearAppUI/WearHealthUI/src/creator/android/service/PedometerService.java" />
-    <entry file="file://E:/studio/sdk/sources/android-24/android/service/notification/StatusBarNotification.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsCalorieFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/FitStepCountView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="-1245">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/quicksetting_subfragment_layout.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/quicksetting_system_config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mediatek/watchapp/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/TempRecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/bamUI/BamButton.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/cleananimation/CenterDot.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/WearableRecyclerViewCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/BounceListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDownloadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="335" column="1" selection-start-line="335" selection-start-column="1" selection-end-line="335" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2067#2146#0" expanded="true" />
-            <element signature="e#4123#4194#0" expanded="true" />
-            <element signature="e#4334#4373#0" expanded="true" />
-            <element signature="e#4375#4413#0" expanded="true" />
-            <element signature="e#4728#4767#0" expanded="true" />
-            <element signature="e#4769#4810#0" expanded="true" />
-            <element signature="e#4940#4959#0" expanded="true" />
-            <element signature="e#4961#4987#0" expanded="true" />
-            <element signature="e#7511#7512#0" expanded="true" />
-            <element signature="e#7582#7583#0" expanded="true" />
-            <element signature="e#8121#8122#0" expanded="true" />
-            <element signature="e#8148#8149#0" expanded="true" />
-            <element signature="e#14217#14258#0" expanded="true" />
-            <element signature="e#14285#14325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#1682#1728#0" expanded="true" />
-            <element signature="e#1786#2922#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/Constant.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BatteryPercentageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/WearableListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6895#6896#0" expanded="true" />
-            <element signature="e#6950#6951#0" expanded="true" />
-            <element signature="e#6998#6999#0" expanded="true" />
-            <element signature="e#7033#7034#0" expanded="true" />
-            <element signature="e#10874#10875#0" expanded="true" />
-            <element signature="e#10950#10951#0" expanded="true" />
-            <element signature="e#12265#12266#0" expanded="true" />
-            <element signature="e#12315#12316#0" expanded="true" />
-            <element signature="e#13278#13279#0" expanded="true" />
-            <element signature="e#13317#13318#0" expanded="true" />
-            <element signature="e#16983#16984#0" expanded="true" />
-            <element signature="e#17018#17019#0" expanded="true" />
-            <element signature="e#17086#17087#0" expanded="true" />
-            <element signature="e#17125#17126#0" expanded="true" />
-            <element signature="e#28749#28750#0" expanded="true" />
-            <element signature="e#28795#28796#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PowerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_screen_slide.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#2083#2101#0" expanded="true" />
-            <element signature="e#2177#2195#0" expanded="true" />
-            <element signature="e#2725#2754#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="492" column="53" selection-start-line="492" selection-start-column="53" selection-end-line="492" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="232" column="33" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/mediatek/watchapp/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="2913" column="22" selection-start-line="2913" selection-start-column="22" selection-end-line="2913" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/percent/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/ComplicationData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/watchface/WatchFaceStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="-660">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="469">
+          <caret line="1970" column="9" lean-forward="true" selection-start-line="1970" selection-start-column="9" selection-end-line="1970" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MiniColumnChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="224" column="49" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="71" column="82" lean-forward="true" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+          <folding>
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3197#3198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="3979" column="42" lean-forward="true" selection-start-line="3979" selection-start-column="42" selection-end-line="3979" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="42" column="105" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="206" column="27" lean-forward="true" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
+          <folding>
+            <element signature="e#8062#8091#1" expanded="true" />
+            <element signature="e#8283#8312#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="151" lean-forward="true" selection-start-line="34" selection-start-column="151" selection-end-line="34" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="313" column="49" selection-start-line="313" selection-start-column="49" selection-end-line="313" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="352" column="52" selection-start-line="352" selection-start-column="52" selection-end-line="352" selection-end-column="52" />
+        <state relative-caret-position="243">
+          <caret line="328" column="24" lean-forward="true" selection-start-line="328" selection-start-column="24" selection-end-line="328" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v4/app/SupportActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/SimpleAnimatorListener2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeFormatText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeDifferenceText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/input/RotaryEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$styleable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$style.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/anima_bt.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="59" />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/anima_wifi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="680" column="49" selection-start-line="680" selection-start-column="49" selection-end-line="680" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ActionPage.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsCalorieFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsDayFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsDistanceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsStepFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/StepsMeterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SwipeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1999" column="17" lean-forward="true" selection-start-line="1999" selection-start-column="17" selection-end-line="1999" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="610" column="90" selection-start-line="610" selection-start-column="90" selection-end-line="610" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchAppWidgetHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteDefaultClockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15073">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="52" column="38" lean-forward="true" selection-end-line="178" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>

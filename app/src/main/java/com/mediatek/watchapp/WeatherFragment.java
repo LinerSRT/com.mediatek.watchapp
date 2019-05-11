@@ -39,7 +39,7 @@ public class WeatherFragment extends Fragment {
     }
 
     private AppWidgetHostView getWidgetHostView() {
-        MainActivity watch = this.mContext;
+        MainActivity watch = (MainActivity) this.mContext;
         AppWidgetManager manager = watch.getWatchWidgetManager();
         WatchAppWidgetHost host = watch.getWatchWidgetHost();
         for (AppWidgetProviderInfo info : manager.getInstalledProviders()) {

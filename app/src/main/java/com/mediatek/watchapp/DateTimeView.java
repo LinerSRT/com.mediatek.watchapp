@@ -35,7 +35,7 @@ public class DateTimeView extends TextView {
         }
 
         public void onReceive(Context context, Intent intent) {
-            if (!"android.intent.action.TIME_TICK".equals(intent.getAction()) || System.currentTimeMillis() >= DateTimeView.this.mUpdateTimeMillis) {
+            if (!"android.intent.action.TIME_TICK".equals(intent.getAction()) || java.lang.System.currentTimeMillis() >= DateTimeView.this.mUpdateTimeMillis) {
                 DateTimeView.this.mLastFormat = null;
                 DateTimeView.this.update();
             }
@@ -75,7 +75,7 @@ public class DateTimeView extends TextView {
         if (this.mTime != null) {
             int display;
             DateFormat format;
-            long start = System.nanoTime();
+            long start = java.lang.System.nanoTime();
             Date time = this.mTime;
             Time t = new Time();
             t.set(this.mTimeMillis);
@@ -89,7 +89,7 @@ public class DateTimeView extends TextView {
             long midnightBefore = t.toMillis(false);
             t.monthDay++;
             long midnightAfter = t.toMillis(false);
-            t.set(System.currentTimeMillis());
+            t.set(java.lang.System.currentTimeMillis());
             t.second = 0;
             long nowMillis = t.normalize(false);
             if ((nowMillis < midnightBefore || nowMillis >= midnightAfter) && (nowMillis < twelveHoursBefore || nowMillis >= twelveHoursAfter)) {
@@ -126,7 +126,7 @@ public class DateTimeView extends TextView {
                 }
                 this.mUpdateTimeMillis = twelveHoursBefore;
             }
-            long finish = System.nanoTime();
+            long finish = java.lang.System.nanoTime();
         }
     }
 

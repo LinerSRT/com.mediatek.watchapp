@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
@@ -22,14 +23,15 @@ public class ScreenControl {
 
     protected void ScreenOff() {
         if (getPowerManager().isScreenOn()) {
-            getPowerManager().goToSleep(SystemClock.uptimeMillis());
-            WakeLock wakeLock = this.mPowerManager.newWakeLock(6, "ScreenOff");
+            //getPowerManager().goToSleep(SystemClock.uptimeMillis());
+            @SuppressLint("InvalidWakeLockTag") WakeLock wakeLock = this.mPowerManager.newWakeLock(6, "ScreenOff");
             wakeLock.acquire();
             wakeLock.release();
             Log.d(this.TAG, "ScreenOff");
         }
     }
 
+    @SuppressLint("WrongConstant")
     private PowerManager getPowerManager() {
         if (this.mPowerManager == null) {
             this.mPowerManager = (PowerManager) mContext.getSystemService("power");

@@ -1,7 +1,9 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.Rect;
@@ -36,6 +38,7 @@ import com.mediatek.watchapp.ClockUtil.ClockSetWallpaper;
 import com.mediatek.watchapp.WatchApp.installedClock;
 import java.util.ArrayList;
 
+@SuppressLint("ValidFragment")
 public class IdleFragment extends Fragment {
     private static final String TAG = IdleFragment.class.getSimpleName();
     private static FrameLayout mClockHost = null;
@@ -43,7 +46,6 @@ public class IdleFragment extends Fragment {
     private static int mStyle = 0;
     public final ClockFragment mClockFragment = ClockFragment.getInstance();
     private Fragment mCurAppListFragment;
-    private AppFitnessModeFragment mFitnessFragment = null;
     private MyAnalogClock mMyclock = null;
     private final NotificationFragment mNotificationFragment = NotificationFragment.getInstance();
     private HorizontalViewPager mPager;
@@ -137,7 +139,7 @@ public class IdleFragment extends Fragment {
 
             public boolean connect() {
                 synchronized (this) {
-                    if (ClockFragment.this.getActivity().bindService(this.mIntent, this, 1)) {
+                    if (ClockFragment.this.getActivity().bindService(this.mIntent, this, Context.BIND_AUTO_CREATE)) {
                         this.mConnected = true;
                         Log.d("xiaocai_clockFragment", "WallpaperConnection connect");
                         return true;
@@ -331,6 +333,7 @@ public class IdleFragment extends Fragment {
             super.onDestroy();
         }
 
+        @SuppressLint("ResourceType")
         private void showLoadingPic(int idLoadingPic) {
             TextView content = (TextView) LayoutInflater.from(getActivity()).inflate(R.layout.live_wallpaper_loading, null);
             content.setBackgroundResource(idLoadingPic);
@@ -418,7 +421,7 @@ public class IdleFragment extends Fragment {
                 return IdleFragment.this.mCurAppListFragment;
             }
             if (position == 3) {
-                return IdleFragment.this.mFitnessFragment;
+                // return IdleFragment.this.mFitnessFragment;
             }
             return IdleFragment.this.mClockFragment;
         }
@@ -441,6 +444,7 @@ public class IdleFragment extends Fragment {
         }
     }
 
+    @SuppressLint("ValidFragment")
     public IdleFragment(int style) {
         setAppListStyle(style);
     }
@@ -468,9 +472,9 @@ public class IdleFragment extends Fragment {
                 ((AppArcListFragment) this.mCurAppListFragment).refreshApplist();
             }
         }
-        if (this.mFitnessFragment != null) {
-            this.mFitnessFragment.refreshApplist();
-        }
+        //if (this.mFitnessFragment != null) {
+        //    this.mFitnessFragment.refreshApplist();
+        //}
     }
 
     public int getAppListStyle() {

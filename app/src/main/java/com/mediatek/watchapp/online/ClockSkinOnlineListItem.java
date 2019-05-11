@@ -37,11 +37,11 @@ public class ClockSkinOnlineListItem extends RelativeLayout {
 
     public final void bind(final Context context, OnlineClockSkinLocalNode node, int pos) {
         this.mThemeNode = node;
-        this.btn.setVisibility(0);
-        if (this.mThemeNode.getState() == 0) {
+        this.btn.setVisibility(VISIBLE);
+        if (this.mThemeNode.getState() == VISIBLE) {
             this.btn.setEnabled(true);
         } else if (this.mThemeNode.getState() == 1) {
-            this.btn.setVisibility(8);
+            this.btn.setVisibility(GONE);
         }
         this.ivFirst.setImageBitmap(node.getBmpFirst());
         this.tvThemeName.setText(node.getName());

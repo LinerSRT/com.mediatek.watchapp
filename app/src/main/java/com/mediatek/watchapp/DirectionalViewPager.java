@@ -417,15 +417,15 @@ public class DirectionalViewPager extends ViewPager {
 
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(getDefaultSize(0, widthMeasureSpec), getDefaultSize(0, heightMeasureSpec));
-        this.mChildWidthMeasureSpec = MeasureSpec.makeMeasureSpec((getMeasuredWidth() - getPaddingLeft()) - getPaddingRight(), 1073741824);
-        this.mChildHeightMeasureSpec = MeasureSpec.makeMeasureSpec((getMeasuredHeight() - getPaddingTop()) - getPaddingBottom(), 1073741824);
+        this.mChildWidthMeasureSpec = MeasureSpec.makeMeasureSpec((getMeasuredWidth() - getPaddingLeft()) - getPaddingRight(), MeasureSpec.EXACTLY);
+        this.mChildHeightMeasureSpec = MeasureSpec.makeMeasureSpec((getMeasuredHeight() - getPaddingTop()) - getPaddingBottom(), MeasureSpec.EXACTLY);
         this.mInLayout = true;
         populate();
         this.mInLayout = false;
         int size = getChildCount();
         for (int i = 0; i < size; i++) {
             View child = getChildAt(i);
-            if (child.getVisibility() != 8) {
+            if (child.getVisibility() != GONE) {
                 child.measure(this.mChildWidthMeasureSpec, this.mChildHeightMeasureSpec);
             }
         }
@@ -458,7 +458,7 @@ public class DirectionalViewPager extends ViewPager {
         int size = this.mOrientation == 0 ? r - l : b - t;
         for (int i = 0; i < count; i++) {
             View child = getChildAt(i);
-            if (child.getVisibility() != 8) {
+            if (child.getVisibility() != GONE) {
                 ItemInfo ii = infoForChild(child);
                 if (ii != null) {
                     int off = size * ii.position;
