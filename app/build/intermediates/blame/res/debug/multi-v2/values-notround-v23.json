@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-notround-v23\\values-notround-v23.xml",
+            "map": [
+                {
+                    "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\3e0dd9ae3f1c6bfbb242ee6c466e3d33\\res\\values-notround-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "216,269,327,371,418",
+                        "endColumns": "52,57,43,46,48",
+                        "endOffsets": "268,326,370,417,466"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,174,222,273",
+                        "endColumns": "56,61,47,50,52",
+                        "endOffsets": "107,169,217,268,321"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-notround-v23/values-notround-v23.xml",
+            "map": [
+                {
+                    "source": "/home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/res/values-notround-v23/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "216,269,327,371,418",
+                        "endColumns": "52,57,43,46,48",
+                        "endOffsets": "268,326,370,417,466"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,174,222,273",
+                        "endColumns": "56,61,47,50,52",
+                        "endOffsets": "107,169,217,268,321"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-notround-v23\\values-notround-v23.xml",
+            "map": [
+                {
+                    "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\sonimc\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\fc61a9964cea845f93565dfd7df83fde\\res\\values-notround-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "216,269,327,371,418",
+                        "endColumns": "52,57,43,46,48",
+                        "endOffsets": "268,326,370,417,466"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,174,222,273",
+                        "endColumns": "56,61,47,50,52",
+                        "endOffsets": "107,169,217,268,321"
+                    }
+                }
+            ]
+        }
+    ]
+}

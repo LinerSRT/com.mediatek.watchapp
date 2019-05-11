@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/applist_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_matrix_view"
+    android:background="#ff000000"
+    android:clipToPadding = "false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="35dp"
+    android:paddingRight="35dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:layout_centerInParent="true" 
+    android:gravity="center"
+    android:scrollbars="none"
+    android:numColumns="2"  />
+    <com.mediatek.watchapp.CircleScoller     
+    android:id="@+id/circlescoller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ></com.mediatek.watchapp.CircleScoller>
+ </RelativeLayout>

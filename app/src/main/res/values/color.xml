@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="alph">#00000000</color>
+	<color name="gray">#ff000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#00ff00</color>
+	
+    <color name="onebox_content_font_color">#ffa3a3a3</color>
+    <color name="onebox_title_font_color">#ff646464</color>
+    <color name="onebox_color_red">#ffff6060</color>
+    <color name="onebox_color_green">#ff48c292</color>
+
+    <color name="action_name_black">#ff646464</color>
+    <color name="action_name_white">#ffffffff</color>
+    <color name="ambient_mode_text">@color/primary_text_dark</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="bg_white">#ffffffff</color>
+    <color name="blue">#ff191970</color>
+    <color name="call_ui_bg">#7f000000</color>
+    <color name="card_hide_textcolor">#ff646464</color>
+    <color name="card_sub_text_color">#ffa3a3a3</color>
+    <color name="card_textcolor">#ff646464</color>
+    <color name="card_text_color_custom">#ff646464</color>
+    <color name="card_title_color">#ff646464</color>
+    <color name="customcoloc">#ffffffff</color>
+    <color name="cw_grey">#ff777777</color>
+    <color name="cw_white">#ffffffff</color>
+    <color name="dark_blue">#ff2955c5</color>
+    <color name="digital_text_color">#ffffffff</color>
+    <color name="disabled_text_light">#ffe0e0e0</color>
+    <color name="dismiss_close">#ffff5151</color>
+    <color name="dismiss_close_pressed">#ffb83120</color>
+    <color name="dismiss_overlay_bg">#80000000</color>
+    <color name="grey">#ff777777</color>
+    <color name="high_light_orange">#ffff6c05</color>
+    <color name="incoming_call_quick_reply_pressed_background">#ff3185ff</color>
+    <color name="item_bg_seselect_color">#30ffffff</color>
+    <color name="item_bg_unseselect_color">#00ffffff</color>
+    <color name="light_grey">#fff9f9f9</color>
+    <color name="number_disable">#ff666666</color>
+    <color name="number_home">#ff00cc66</color>
+    <color name="number_home20">#3300cc66</color>
+    <color name="number_other20">#334a4a4a</color>
+    <color name="number_phone">#ff3399ff</color>
+    <color name="number_phone20">#333399ff</color>
+    <color name="number_work">#ffffcc00</color>
+    <color name="number_work20">#33ffcc00</color>
+    <color name="onebox_black">#ff282828</color>
+    <color name="onebox_color_dark_red">#ff48c292</color>
+    <color name="onebox_color_orange">#fff88617</color>
+    <color name="onebox_default_font_color">#ff7f7f7f</color>
+    <color name="onebox_gray">#ff666666</color>
+    <color name="onebox_text_gray">#ffbcbcbc</color>
+    <color name="onebox_text_green">#ff00cc66</color>
+    <color name="onebox_text_red">#ffff6666</color>
+    <color name="orange">#ffffa500</color>
+    <color name="primary_text_dark">#ffffffff</color>
+    <color name="primary_text_light">#ff434343</color>
+    <color name="secondary_status_bar_shadow_color">#dd000000</color>
+    <color name="secondary_text_light">#ffa2a2a2</color>
+    <color name="semitransparent_grey">#66777777</color>
+    <color name="stream_layout_bk">#ffcdcdcd</color>
+    <color name="streamlet_layout_null">#00000000</color>
+    <color name="success_text_color">#ff1ccf70</color>
+    <color name="text_color_black">#ff666666</color>
+    <color name="text_color_red">#ffff5151</color>
+    <color name="watchface_picker_bg_color">#ff444444</color>
+     <color name="White">#ffff00</color>
+<color name="Green">#0000ff</color>
+
+    <color name="colorPrimary">#00ffff</color>
+</resources>

@@ -1,0 +1,272 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:2:1-65:12
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:percent:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/percent-25.2.0.aar/10d069f8ed9f83d3c2dd7db3afeadd77/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/93ecdb364cbf05369a29e8f42b996e2f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/90f3aaa84a9e3875556f721db0f3ef9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6a754804782a6e55ff596333d3cbb69/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/2b14ef25588d52e6fd941395aa36ba77/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6ba80eabc20c4cd739ef78b57e0b9bcf/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/94a70fc8b9bc6be7b234efc1e5203f87/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/fd746f20fb47ab385a398d769190e0b4/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:3:11-42
+		INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+	android:sharedUserId
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:5:11-52
+	xmlns:tools
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:2:11-57
+	xmlns:android
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:4:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:10:5-11:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:10:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:12:22-75
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:13:22-69
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:14:5-15:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:16:5-17:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:16:22-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:19:5-20:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:20:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:19:22-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.BIND_APPWIDGET
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:23:5-24:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:23:22-70
+uses-permission#android.permission.ADVANCED_WIDGET_API
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:25:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:27:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:28:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:29:22-65
+uses-permission#android.permission.DEVICE_POWER
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:32:5-33:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:32:22-68
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:34:5-35:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:35:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:34:22-72
+uses-permission#android.permission.DELETE_PACKAGES
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:36:5-37:47
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:37:9-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:36:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:38:5-74
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:38:22-72
+application
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:40:1-64:19
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:6:3-8:17
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:6:3-8:17
+MERGED from [com.android.support:percent:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/percent-25.2.0.aar/10d069f8ed9f83d3c2dd7db3afeadd77/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:percent:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/percent-25.2.0.aar/10d069f8ed9f83d3c2dd7db3afeadd77/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/93ecdb364cbf05369a29e8f42b996e2f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/93ecdb364cbf05369a29e8f42b996e2f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6a754804782a6e55ff596333d3cbb69/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6a754804782a6e55ff596333d3cbb69/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/2b14ef25588d52e6fd941395aa36ba77/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/2b14ef25588d52e6fd941395aa36ba77/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6ba80eabc20c4cd739ef78b57e0b9bcf/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6ba80eabc20c4cd739ef78b57e0b9bcf/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/94a70fc8b9bc6be7b234efc1e5203f87/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/94a70fc8b9bc6be7b234efc1e5203f87/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/fd746f20fb47ab385a398d769190e0b4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/fd746f20fb47ab385a398d769190e0b4/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:40:14-46
+	tools:ignore
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:41:5-44
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:40:47-89
+service#com.mediatek.watchapp.NotificationService
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:42:9-46:19
+	android:label
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:42:18-50
+	android:permission
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:42:108-182
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:42:51-107
+intent-filter#android.service.notification.NotificationListenerService
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:43:13-45:29
+action#android.service.notification.NotificationListenerService
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:44:17-98
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:44:25-96
+activity#com.mediatek.watchapp.MainActivity
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:9-54:20
+	android:screenOrientation
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:335-371
+	android:clearTaskOnLaunch
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:19-51
+	android:stateNotNeeded
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:372-401
+	android:label
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:209-252
+	android:excludeFromRecents
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:140-173
+	android:launchMode
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:253-284
+	android:hardwareAccelerated
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:174-208
+	android:windowSoftInputMode
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:434-473
+	android:configChanges
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:52-139
+	android:theme
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:402-433
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:47:285-334
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.MONKEY
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:48:13-53:29
+action#android.intent.action.MAIN
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:49:17-68
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:50:17-75
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:50:27-73
+category#android.intent.category.HOME
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:51:17-72
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:51:27-70
+category#android.intent.category.MONKEY
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:52:17-74
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:52:27-72
+activity#com.mediatek.watchapp.ChooseClockActivity
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:55:9-116
+	android:theme
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:55:76-114
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:55:19-75
+receiver#com.mediatek.watchapp.BootComoletedReceiver
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:56:9-60:20
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:56:19-77
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:57:13-59:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:58:17-78
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:58:25-76
+activity#com.mediatek.watchapp.online.ClockSkinOnlineActivity
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:61:9-184
+	android:screenOrientation
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:61:87-123
+	android:theme
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:61:124-182
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:61:19-86
+service#com.mediatek.watchapp.online.ClockSkinDownloadService
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:62:9-127
+	android:process
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:62:87-125
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:62:18-86
+uses-library#com.google.android.wearable
+ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:63:9-92
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:7:5-88
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:7:5-88
+	android:required
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:63:66-90
+	android:name
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml:63:23-65
+uses-sdk
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.support:wearable:2.0.2] /home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/AndroidManifest.xml:4:3-70
+MERGED from [com.android.support:percent:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/percent-25.2.0.aar/10d069f8ed9f83d3c2dd7db3afeadd77/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/percent-25.2.0.aar/10d069f8ed9f83d3c2dd7db3afeadd77/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/93ecdb364cbf05369a29e8f42b996e2f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/93ecdb364cbf05369a29e8f42b996e2f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/90f3aaa84a9e3875556f721db0f3ef9c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/90f3aaa84a9e3875556f721db0f3ef9c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6a754804782a6e55ff596333d3cbb69/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6a754804782a6e55ff596333d3cbb69/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/2b14ef25588d52e6fd941395aa36ba77/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/2b14ef25588d52e6fd941395aa36ba77/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6ba80eabc20c4cd739ef78b57e0b9bcf/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6ba80eabc20c4cd739ef78b57e0b9bcf/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/94a70fc8b9bc6be7b234efc1e5203f87/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/94a70fc8b9bc6be7b234efc1e5203f87/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/fd746f20fb47ab385a398d769190e0b4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/fd746f20fb47ab385a398d769190e0b4/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /home/liner/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/93ecdb364cbf05369a29e8f42b996e2f/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liner/AndroidStudioProjects/LQX-master/app/src/main/AndroidManifest.xml

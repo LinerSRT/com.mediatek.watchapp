@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.support.wearable.myView.WearableListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/applist_bg"
+    android:scrollbars="none"
+    android:dividerHeight="0dp" />

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:padding="15dip"
+    android:background="@android:color/black"
+    >
+  
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dip"
+        android:gravity="center">
+        
+        <TextView 
+            android:text="@string/today_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_weight="0.25"/>
+        
+        <TextView 
+            android:id="@+id/step_count_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:layout_weight="0.4"/>
+        
+          <TextView 
+            android:id="@+id/distance_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingBottom="40dip"
+            android:layout_weight="0.25"/>
+        
+        
+    </LinearLayout>
+      
+        <com.mediatek.watchapp.FitStepCountView
+        android:id="@+id/fit_step_count_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="false"
+        />
+</RelativeLayout>

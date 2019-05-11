@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+  	<RelativeLayout 
+  	   android:id="@+id/center_image"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_centerInParent="true">
+	   
+	  <TextView 
+	      android:id="@+id/text_list_item"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="30dip"
+	      android:visibility="gone"
+	      android:textSize="38sp"
+	      android:gravity="center"/>  
+	      
+	  <ImageView 
+	      android:id="@+id/img_list_item"
+	      android:layout_width="@dimen/thumnail_default_width"
+	      android:layout_height="@dimen/thumnail_default_width"/>
+	  
+	   <Button
+	        android:id="@+id/delete_clock"
+	        android:layout_width="42dp"
+	        android:layout_height="42dp"
+	        android:background="@drawable/deleteclock"/>
+	</RelativeLayout>
+   
+	<Button 
+		 android:id="@+id/configuration"
+		 android:layout_above="@id/center_image"
+
+		 android:layout_marginBottom="10dp"
+		 android:layout_centerHorizontal="true"
+		 android:layout_below="@id/center_image"
+		 android:layout_width="60dp"
+		 android:layout_height="60dp"
+		 android:visibility="gone"
+		 android:background="@drawable/watchface_configuration" />
+   
+</RelativeLayout>

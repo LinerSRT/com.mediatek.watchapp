@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<toppackages xmlns:launcher="http://schemas.android.com/apk/res/com.mediatek.watchapp">
+    <app
+        launcher:topClassName="com.android.contacts.activities.PeopleActivity"
+        launcher:topOrder="0"
+        launcher:topPackageName="com.android.contacts"
+        />
+
+    <app
+        launcher:topClassName="com.android.dialer.DialtactsWearActivity"
+        launcher:topOrder="1"
+        launcher:topPackageName="com.android.dialer"
+        />
+
+    <app
+        launcher:topClassName="com.wiite.phonecall.MainActivity"
+        launcher:topOrder="1"
+        launcher:topPackageName="com.wiite.phonecall"
+        />
+
+    <app
+        launcher:topClassName="com.android.mms.ui.BootActivity"
+        launcher:topOrder="2"
+        launcher:topPackageName="com.android.mms"
+        />
+
+    <app
+        launcher:topClassName="com.android.settings.Settings"
+        launcher:topOrder="3"
+        launcher:topPackageName="com.android.settings"
+        />
+
+    <app
+        launcher:topClassName="com.android.browser.BrowserActivity"
+        launcher:topOrder="4"
+        launcher:topPackageName="com.android.browser"
+        />
+
+    <app
+        launcher:topClassName="com.android.documentsui.LauncherActivity"
+        launcher:topOrder="5"
+        launcher:topPackageName="com.android.documentsui"
+        />
+
+    <app
+        launcher:topClassName="com.android.calendar.AllInOneActivity"
+        launcher:topOrder="6"
+        launcher:topPackageName="com.android.calendar"
+        />
+
+    <app
+        launcher:topClassName="com.android.deskclock.DeskClock"
+        launcher:topOrder="7"
+        launcher:topPackageName="com.android.deskclock"
+        />
+
+    <app
+        launcher:topClassName="com.android.camera.CameraLauncher"
+        launcher:topOrder="8"
+        launcher:topPackageName="com.mediatek.camera"
+        />
+
+    <app
+        launcher:topClassName="com.android.gallery3d.app.GalleryActivity"
+        launcher:topOrder="9"
+        launcher:topPackageName="com.android.gallery3d"
+        />
+
+    <app
+        launcher:topClassName="com.android.music.MusicBrowserActivity"
+        launcher:topOrder="10"
+        launcher:topPackageName="com.android.music"
+        />
+
+    <app
+        launcher:topClassName="com.android.soundrecorder.SoundRecorder"
+        launcher:topOrder="11"
+        launcher:topPackageName="com.android.soundrecorder"
+        />
+
+    <app
+        launcher:topClassName="com.mediatek.filemanager.FileManagerBasePagerActivity"
+        launcher:topOrder="12"
+        launcher:topPackageName="com.mediatek.filemanager"
+        />
+
+    <app
+        launcher:topClassName="creator.android.SHealth.MainActivity"
+        launcher:topOrder="13"
+        launcher:topPackageName="creator.android.SHealth"
+        />
+    
+    <app
+        launcher:topClassName="com.cenon.heartrate.HeartRateMonitorActivity"
+        launcher:topOrder="13"
+        launcher:topPackageName="com.cenon.heartrate"
+        />
+
+    <app
+        launcher:topClassName="com.sprots.wiiteer.fitness.module.main.ui.MainActivity"
+        launcher:topOrder="14"
+        launcher:topPackageName="com.sprots.wiiteer.fitness"
+        />
+
+    <app
+        launcher:topClassName="com.android.watchweather.WeatherActivity"
+        launcher:topOrder="15"
+        launcher:topPackageName="com.android.watchweather"
+        />
+
+    <app
+        launcher:topClassName="com.google.android.googlequicksearchbox.VoiceSearchActivity"
+        launcher:topOrder="16"
+        launcher:topPackageName="com.google.android.googlequicksearchbox"
+        />
+
+    <app
+        launcher:topClassName="com.android.vending.AssetBrowserActivity"
+        launcher:topOrder="17"
+        launcher:topPackageName="com.android.vending"
+        />
+
+    <app
+        launcher:topClassName="com.google.android.maps.MapsActivity"
+        launcher:topOrder="18"
+        launcher:topPackageName="com.google.android.apps.maps"
+        />
+
+    <app
+        launcher:topClassName="com.wiitetech.wiiwatch.ModelListActivity"
+        launcher:topOrder="19"
+        launcher:topPackageName="com.wiitetech.wiiwatch"
+        />
+    
+    <app
+        launcher:topClassName="com.android.instructions.MainActivity"
+        launcher:topOrder="20"
+        launcher:topPackageName="com.android.instructions"
+        />
+    
+</toppackages>

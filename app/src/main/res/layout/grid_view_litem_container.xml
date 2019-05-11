@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="26dip"
+    android:background="@android:color/transparent" >
+
+
+    <com.mediatek.watchapp.view.RoundImageView
+        android:id="@+id/imageofgriditem"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        app:type="circle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/app_name_label"
+        android:paddingTop="4dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/imageofgriditem">
+
+        <TextView
+            android:id="@+id/textofgriditem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_below="@+id/app_name_label"/>
+
+</RelativeLayout>

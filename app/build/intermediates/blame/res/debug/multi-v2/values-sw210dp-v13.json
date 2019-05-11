@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw210dp-v13\\values-sw210dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\sonimc\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\fc61a9964cea845f93565dfd7df83fde\\res\\values-sw210dp-v13\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "215,279,339",
+                        "endColumns": "63,59,47",
+                        "endOffsets": "278,338,386"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,123,187",
+                        "endColumns": "67,63,51",
+                        "endOffsets": "118,182,234"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw210dp-v13\\values-sw210dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\3e0dd9ae3f1c6bfbb242ee6c466e3d33\\res\\values-sw210dp-v13\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "215,279,339",
+                        "endColumns": "63,59,47",
+                        "endOffsets": "278,338,386"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,123,187",
+                        "endColumns": "67,63,51",
+                        "endOffsets": "118,182,234"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw210dp-v13/values-sw210dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/res/values-sw210dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "215,279,339",
+                        "endColumns": "63,59,47",
+                        "endOffsets": "278,338,386"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,123,187",
+                        "endColumns": "67,63,51",
+                        "endOffsets": "118,182,234"
+                    }
+                }
+            ]
+        }
+    ]
+}

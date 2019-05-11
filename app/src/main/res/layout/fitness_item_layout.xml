@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|left"
+    android:orientation="horizontal" >
+
+    <android.support.wearable.view.CircledImageView
+        android:id="@+id/icon_image"
+        android:layout_margin="2px"
+        android:layout_height="133px"
+        android:layout_width="133px"
+        app:circle_radius="0px"
+        app:circle_border_color="#FFFFFFFF"
+        app:circle_border_width="0dp"
+        app:circle_color="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/icon_name"
+        android:layout_height="wrap_content"
+        android:layout_width="310px"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        />
+</LinearLayout>

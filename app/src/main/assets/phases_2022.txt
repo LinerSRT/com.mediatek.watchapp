@@ -1,0 +1,13 @@
+    Jan  2 18 33    Jan  9 18 11    Jan 17 23 48    Jan 25 13 41
+    Feb  1  5 46    Feb  8 13 50    Feb 16 16 56    Feb 23 22 32
+    Mar  2 17 35    Mar 10 10 45    Mar 18  7 17    Mar 25  5 37
+    Apr  1  6 24    Apr  9  6 48    Apr 16 18 55    Apr 23 11 56
+    Apr 30 20 28    May  9  0 21    May 16  4 14    May 22 18 43
+    May 30 11 30    Jun  7 14 48    Jun 14 11 52    Jun 21  3 11
+    Jun 29  2 52    Jul  7  2 14    Jul 13 18 38    Jul 20 14 18
+    Jul 28 17 55    Aug  5 11 06    Aug 12  1 36    Aug 19  4 36
+    Aug 27  8 17    Sep  3 18 08    Sep 10  9 59    Sep 17 21 52
+    Sep 25 21 54    Oct  3  0 14    Oct  9 20 55    Oct 17 17 15
+    Oct 25 10 49    Nov  1  6 37    Nov  8 11 02    Nov 16 13 27
+    Nov 23 22 57    Nov 30 14 36    Dec  8  4 08    Dec 16  8 56
+    Dec 23 10 17    Dec 30  1 20

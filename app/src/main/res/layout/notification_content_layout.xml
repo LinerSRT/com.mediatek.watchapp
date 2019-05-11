@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.mediatek.watchapp.NotificationScrollView
+        android:id="@+id/card_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:overScrollMode="never" >
+
+        <FrameLayout
+            android:id="@+id/card_scroll_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:addStatesFromChildren="true"
+            android:clickable="true"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:id="@+id/card_frame1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/note_padding_gap"
+		        android:layout_marginBottom="@dimen/note_padding_gap"
+		        android:layout_marginLeft="@dimen/note_padding_gap"
+		        android:layout_marginRight="@dimen/note_padding_gap"
+                android:orientation="vertical" >
+
+	            <RelativeLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="top|center"
+	                android:layout_marginLeft="50px"
+	                android:layout_marginRight="50px"
+	        		android:layout_marginTop="20px"> 
+		            <ImageView
+		                android:id="@+id/type_icon"
+	
+		                android:layout_alignParentLeft="true"
+		                android:layout_width="68dip"
+		                android:layout_height="68dip"/>
+		            <LinearLayout
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_centerInParent="true"
+		                android:orientation="vertical"> 
+			            <TextView
+			                android:id="@+id/type_text"
+			                android:layout_width="130dp"
+			                android:layout_height="wrap_content"
+			                android:gravity="center"
+			                android:textColor="#FFFFFFFF"
+			                android:textSize="26.0sp" />
+
+						<Chronometer xmlns:android="http://schemas.android.com/apk/res/android"
+						    android:id="@+id/chronometer"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="16dp"
+		                    android:layout_marginStart="100dp"
+		                    android:layout_marginTop="2dp"
+							android:textAppearance="@style/NotificationEventTime"
+		                    android:visibility="gone" />
+
+						<com.mediatek.watchapp.DateTimeView xmlns:android="http://schemas.android.com/apk/res/android"
+						    android:id="@+id/time"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="wrap_content"
+		                    android:layout_centerInParent="true"
+							android:gravity="center"
+		                    android:layout_marginTop="2dp"
+						    android:textAppearance="@style/NotificationEventTime"
+		                    android:visibility="gone" />
+
+		             </LinearLayout>
+		            <ImageView
+		                android:id="@+id/icon"
+		                android:layout_alignParentRight="true"
+		       
+		                android:layout_width="68dip"
+		                android:layout_height="68dip"
+		                android:scaleType="centerCrop" />
+	             </RelativeLayout>
+             
+                <TextView
+                    android:id="@+id/title"
+	                android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginStart="6dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#FFffffff"
+                    android:textSize="28.0dp" />
+                    
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:textColor="#FFffffff"
+                    android:textSize="28.0dp" />
+
+                <ImageButton
+                    android:id="@+id/options"
+                    style="@style/NotificationButtonWithOutBG"
+                    android:src="@drawable/notification_expand"
+                    android:text="@string/options" />
+
+                <Button
+                    android:id="@+id/action1"
+                    style="@style/NotificationButton"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/action2"
+                    style="@style/NotificationButton"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/action3"
+                    style="@style/NotificationButton"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/open"
+                    style="@style/NotificationButton"
+                    android:text="@string/open"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/close"
+                    style="@style/NotificationRoundButton"
+                    android:text="@string/close"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </com.mediatek.watchapp.NotificationScrollView>
+
+</FrameLayout>

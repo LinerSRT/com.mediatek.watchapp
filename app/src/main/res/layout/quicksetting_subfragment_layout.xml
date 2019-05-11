@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/main_container"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:zhy="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/round_bg">
+
+    <LinearLayout
+        android:id="@+id/status_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/phone_connect"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            style="@style/quicksettings_button_style">
+        </ImageView>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/BatteryDrawable"
+            android:layout_width="@dimen/battery_view_size"
+            android:layout_height="@dimen/battery_view_size"
+            android:layout_gravity="center"
+            android:src="@drawable/battery_02"
+            />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:id="@+id/sim_status"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp">
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/network_stat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true">
+                </ImageView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sim_oprator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" 
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-thin"
+                android:visibility="gone"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.mediatek.watchapp.DateView
+        android:id="@+id/dayOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/status_view"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:tag="EEEE"
+        android:textColor="#FFFFFFFF"
+        android:textSize="28sp"/>
+
+    <com.mediatek.watchapp.DateView
+        android:id="@+id/hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dayOfWeek"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:tag="hmm"
+        android:textColor="#FFFFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+    <com.mediatek.watchapp.DateView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:tag="yyyy/MM/dd"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="26sp"/>
+
+    <com.mediatek.watchapp.BatteryPercentageView
+        android:id="@+id/percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold" 
+        android:textColor="#ff870bfb"
+        android:textSize="24sp"/>
+
+    <com.mediatek.watchapp.BatteryMeterView
+        android:id="@+id/pb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:indeterminate="false"
+        android:max="100"
+        android:padding="15dp"
+        zhy:progress_reached_bar_height="15dp"
+        zhy:progress_reached_color="#ff870bfb"
+        zhy:progress_unreached_bar_height="15dp"
+        zhy:progress_unreached_color="#ff333333"
+        />
+
+</RelativeLayout>

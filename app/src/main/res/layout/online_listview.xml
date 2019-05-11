@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <com.mediatek.watchapp.online.BounceListView
+        android:id="@+id/online_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:divider="#ff000000"
+        android:dividerHeight="10px"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+	    android:scrollbarStyle="outsideInset"         
+        android:background="#ff000000"
+        android:scrollbars="none"/>"
+
+    <TextView
+        android:id="@+id/progress_button"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:textSize="26dip"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/pre_text"
+        android:textColor="#af04aeda">
+    </TextView>
+      
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto/com.mediatek.watchapp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.mediatek.watchapp.WiiteDefaultClockView 
+       android:id="@+id/watchtable"	
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_marginTop="0px"
+		android:visibility="visible"/>
+    
+</RelativeLayout>
