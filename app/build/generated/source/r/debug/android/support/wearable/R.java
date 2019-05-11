@@ -8,11 +8,11 @@ package android.support.wearable;
 
 public final class R {
     public static final class anim {
-        public static final int generic_confirmation_generic_confirmation_animation = 0x7f010004;
-        public static final int generic_confirmation_icon_animation = 0x7f010005;
-        public static final int open_on_phone_arrow_animation = 0x7f010006;
-        public static final int open_on_phone_path_1_animation = 0x7f010007;
-        public static final int open_on_phone_path_2_animation = 0x7f010008;
+        public static final int generic_confirmation_generic_confirmation_animation = 0x7f010002;
+        public static final int generic_confirmation_icon_animation = 0x7f010003;
+        public static final int open_on_phone_arrow_animation = 0x7f010004;
+        public static final int open_on_phone_path_1_animation = 0x7f010005;
+        public static final int open_on_phone_path_2_animation = 0x7f010006;
     }
     public static final class animator {
         public static final int circular_image_button_anim = 0x7f020000;
@@ -250,27 +250,27 @@ public final class R {
         public static final int accept_deny_dialog_positive_bg = 0x7f080001;
         public static final int action_item_background = 0x7f080002;
         public static final int action_item_icon_background = 0x7f080003;
-        public static final int card_background = 0x7f080019;
-        public static final int card_frame = 0x7f08001a;
-        public static final int card_frame_pressed = 0x7f08001b;
-        public static final int close_button = 0x7f08001e;
-        public static final int generic_confirmation = 0x7f08002d;
-        public static final int generic_confirmation_animation = 0x7f08002e;
-        public static final int ic_cc_checkmark = 0x7f080035;
-        public static final int ic_cc_clear = 0x7f080036;
-        public static final int ic_cc_settings_button_bottom = 0x7f080037;
-        public static final int ic_cc_settings_button_center = 0x7f080038;
-        public static final int ic_cc_settings_button_e = 0x7f080039;
-        public static final int ic_cc_settings_button_top = 0x7f08003a;
-        public static final int ic_expand_less_white_22 = 0x7f08003b;
-        public static final int ic_expand_more_white_22 = 0x7f08003c;
-        public static final int ic_full_cancel = 0x7f08003e;
-        public static final int ic_full_sad = 0x7f08003f;
-        public static final int ic_more_horiz_24dp_wht = 0x7f080040;
-        public static final int ic_more_vert_24dp_wht = 0x7f080041;
-        public static final int open_on_phone = 0x7f080066;
-        public static final int open_on_phone_animation = 0x7f080067;
-        public static final int preference_wrapped_icon = 0x7f08006f;
+        public static final int card_background = 0x7f08001b;
+        public static final int card_frame = 0x7f08001c;
+        public static final int card_frame_pressed = 0x7f08001d;
+        public static final int close_button = 0x7f080020;
+        public static final int generic_confirmation = 0x7f08002f;
+        public static final int generic_confirmation_animation = 0x7f080030;
+        public static final int ic_cc_checkmark = 0x7f080037;
+        public static final int ic_cc_clear = 0x7f080038;
+        public static final int ic_cc_settings_button_bottom = 0x7f080039;
+        public static final int ic_cc_settings_button_center = 0x7f08003a;
+        public static final int ic_cc_settings_button_e = 0x7f08003b;
+        public static final int ic_cc_settings_button_top = 0x7f08003c;
+        public static final int ic_expand_less_white_22 = 0x7f08003d;
+        public static final int ic_expand_more_white_22 = 0x7f08003e;
+        public static final int ic_full_cancel = 0x7f080040;
+        public static final int ic_full_sad = 0x7f080041;
+        public static final int ic_more_horiz_24dp_wht = 0x7f080042;
+        public static final int ic_more_vert_24dp_wht = 0x7f080043;
+        public static final int open_on_phone = 0x7f080068;
+        public static final int open_on_phone_animation = 0x7f080069;
+        public static final int preference_wrapped_icon = 0x7f080071;
     }
     public static final class fraction {
         public static final int action_drawer_item_first_item_top_padding = 0x7f090000;

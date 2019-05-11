@@ -1,5 +1,6 @@
 package com.mediatek.watchapp.view;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -18,7 +19,6 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ImageView;
 import com.mediatek.watchapp.R;
-import com.mediatek.watchapp.R$styleable;
 
 public class RoundImageView extends ImageView {
     private Paint mBitmapPaint = new Paint();
@@ -31,11 +31,12 @@ public class RoundImageView extends ImageView {
     private int mWidth;
     private int type;
 
+    @SuppressLint("ResourceType")
     public RoundImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.mContex = context;
         this.mBitmapPaint.setAntiAlias(true);
-        TypedArray a = context.obtainStyledAttributes(attrs, R$styleable.RoundImageView);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RoundImageView);
         this.mBorderRadius = a.getDimensionPixelSize(0, (int) TypedValue.applyDimension(1, 10.0f, getResources().getDisplayMetrics()));
         this.type = a.getInt(1, 0);
         a.recycle();

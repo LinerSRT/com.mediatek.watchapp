@@ -23,7 +23,7 @@ public class RoundProgressBarWidthNumber extends HorizontalProgressBarWithNumber
     public RoundProgressBarWidthNumber(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         this.mRadius = dp2px(30);
-        TypedArray ta = context.obtainStyledAttributes(attrs, R$styleable.RoundProgressBarWidthNumber);
+        TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.RoundProgressBarWidthNumber);
         this.mRadius = (int) ta.getDimension(0, (float) this.mRadius);
         ta.recycle();
         this.mPaint.setStyle(Style.STROKE);

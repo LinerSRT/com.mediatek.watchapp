@@ -10,7 +10,6 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.provider.Settings.System;
 import android.support.v4.app.Fragment;
-import android.support.wearable.R$styleable;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
 import android.telephony.SignalStrength;
@@ -220,7 +219,7 @@ public class QuickSettingsSubFragment extends Fragment {
             case 10:
             case 12:
             case 14:
-            case R.styleable.ActionPage_imageScaleMode /*15*/:
+            case 15 /*15*/:
                 if (dBm > -111 && dBm != 85) {
                     if (dBm < -91) {
                         if (dBm < -98) {
@@ -328,9 +327,6 @@ public class QuickSettingsSubFragment extends Fragment {
                 case 10:
                 case 12:
                 case 14:
-                case R.styleable.ActionPage_imageScaleMode /*15*/:
-                    this.mNetworkState.setImageDrawable(this.mContext.getResources().getDrawable(R.drawable.network_3g));
-                    break;
                 case 13:
                     this.mNetworkState.setImageDrawable(this.mContext.getResources().getDrawable(R.drawable.network_4g));
                     break;

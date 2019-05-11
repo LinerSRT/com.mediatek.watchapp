@@ -105,7 +105,7 @@ public class CustomDigitalClockSave extends View {
         this.mIntentReceiver = new C01071();
         this.mContext = context;
         Resources r = getContext().getResources();
-        TypedArray a = context.obtainStyledAttributes(attrs, R$styleable.CustomClock, defStyle, 0);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CustomClock, defStyle, 0);
         this.mDial = a.getDrawable(0);
         if (this.mDial == null) {
             this.mDial = r.getDrawable(R.drawable.watch_clock_save);

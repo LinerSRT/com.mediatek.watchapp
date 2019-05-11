@@ -1,5 +1,6 @@
 package com.mediatek.watchapp;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -143,6 +144,7 @@ public class AppListCustomUtil {
         return icon;
     }
 
+    @SuppressLint("ResourceType")
     static boolean loadTopPackage(Context context) {
         Log.i("AppListCustomUtil", "loadTopPackage");
         if (sTopPackages != null) {
@@ -159,7 +161,7 @@ public class AppListCustomUtil {
                 if ((type == 3 && parser.getDepth() <= depth) || type == 1) {
                     break;
                 } else if (type == 2) {
-                    TypedArray a = context.obtainStyledAttributes(attrs, R$styleable.TopPackage);
+                    TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TopPackage);
                     sTopPackages.add(new TopPackage(a.getString(0), a.getString(1), a.getInt(2, 0)));
                     Log.d("AppListCustomUtil", "loadTopPackage: packageName = " + a.getString(0) + ", className = " + a.getString(1));
                     a.recycle();

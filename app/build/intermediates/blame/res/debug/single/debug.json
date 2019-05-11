@@ -28,12 +28,12 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\mipmap-nodpi\\com_android_deskclock_deskclock.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_notification_text_background.9.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/notification_text_background.9.png"
-    },
-    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_qs_01weather_flurries.png.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\qs_01weather_flurries.png"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_notification_text_background.9.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/notification_text_background.9.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notification_expand_normal.png.flat",
@@ -52,12 +52,12 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\qs_01weather_partlysunny.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_qs01_power80.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/qs01_power80.png"
-    },
-    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notification_button_pressed.9.png.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\notification_button_pressed.9.png"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_qs01_power80.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/qs01_power80.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_widget_music_next.png.flat",
@@ -124,48 +124,48 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\sonimc\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\fc61a9964cea845f93565dfd7df83fde\\res\\drawable-mdpi-v4\\card_frame.9.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_qs01_time1.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\qs01_time1.png"
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-nodpi_com_android_calculator2_calculator.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\mipmap-nodpi\\com_android_calculator2_calculator.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/color_card_grey_text_color.xml.flat",
         "source": "/home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/res/color/card_grey_text_color.xml"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-nodpi_com_android_calculator2_calculator.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\mipmap-nodpi\\com_android_calculator2_calculator.png"
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_qs01_time1.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\qs01_time1.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/layout_music_item_list.xml.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/layout/music_item_list.xml"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_qs01_week1.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/qs01_week1.png"
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_1_item.xml.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\sonimc\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\fc61a9964cea845f93565dfd7df83fde\\res\\layout\\single_page_nav_drawer_1_item.xml"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_empty.png.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\empty.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_1_item.xml.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/C:\\Users\\sonimc\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.2.aar\\fc61a9964cea845f93565dfd7df83fde\\res\\layout\\single_page_nav_drawer_1_item.xml"
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_qs01_week1.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/qs01_week1.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-nodpi_com_android_mms_ui_bootact.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\mipmap-nodpi\\com_android_mms_ui_bootact.png"
-    },
-    {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_widget_music_bg.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\widget_music_bg.png"
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_previev_ld_01.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\previev_ld_01.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/layout_grid_view_litem_container.xml.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/layout/grid_view_litem_container.xml"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_previev_ld_01.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\previev_ld_01.png"
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_widget_music_bg.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\widget_music_bg.png"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-nodpi_com_android_mms_ui_bootact.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\mipmap-nodpi\\com_android_mms_ui_bootact.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/interpolator-v21_open_on_phone_animation_interpolator_0.xml.flat",
@@ -196,12 +196,12 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/qs_01weather_mostlycloudy.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_prev_pressed.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\prev_pressed.png"
-    },
-    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/layout_single_page_nav_drawer_peek_view.xml.flat",
         "source": "/home/liner/.gradle/caches/transforms-1/files-1.1/wearable-2.0.2.aar/a30476f7c484a8255df13ad121c340bc/res/layout/single_page_nav_drawer_peek_view.xml"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_prev_pressed.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\prev_pressed.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_advanced_item_layout.xml.flat",
@@ -248,12 +248,12 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/widget_music_volume_big_normal.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_battery_low_circle.xml.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable\\battery_low_circle.xml"
-    },
-    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\anim_enter_anim.xml.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\anim\\enter_anim.xml"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_battery_low_circle.xml.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable\\battery_low_circle.xml"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_ic_cc_settings_button_top.xml.flat",
@@ -304,12 +304,12 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\custom_clockface_dial.png"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_type_watch.png.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\type_watch.png"
-    },
-    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wl_circle.xml.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable\\wl_circle.xml"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_type_watch.png.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\type_watch.png"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_widget_music_pause_pressed.png.flat",
@@ -1468,6 +1468,10 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\signal_4.png"
     },
     {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable_anima_bt.xml.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable/anima_bt.xml"
+    },
+    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_pause_play.png.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/pause_play.png"
     },
@@ -1486,10 +1490,6 @@
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cancel_button.png.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable-mdpi\\cancel_button.png"
-    },
-    {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/anim_anima_bt.xml.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/anim/anima_bt.xml"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_qw_06_steps_8.png.flat",
@@ -3576,10 +3576,6 @@
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/layout/quicksetting_health_fragment_layout.xml"
     },
     {
-        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/anim_anima_wifi.xml.flat",
-        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/anim/anima_wifi.xml"
-    },
-    {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable-mdpi_qs01_time5.png.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable-mdpi/qs01_time5.png"
     },
@@ -4398,6 +4394,10 @@
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_volume_up_selector.xml.flat",
         "source": "/home/liner/AndroidStudioProjects/LQX-master/D:\\gz\\QS\\cai\\WearHome_20181011\\WearHome\\app\\src\\main\\res\\drawable\\volume_up_selector.xml"
+    },
+    {
+        "merged": "/home/liner/AndroidStudioProjects/LQX-master/app/build/intermediates/res/merged/debug/drawable_anima_wifi.xml.flat",
+        "source": "/home/liner/AndroidStudioProjects/LQX-master/app/src/main/res/drawable/anima_wifi.xml"
     },
     {
         "merged": "/home/liner/AndroidStudioProjects/LQX-master/D:\\WearHome\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_page_nav_drawer_7_item.xml.flat",

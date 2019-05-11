@@ -59,7 +59,7 @@ public class PageCircleIndicator extends LinearLayout implements OnPageChangeLis
 
     private void handleTypedArray(Context context, AttributeSet attrs) {
         if (attrs != null) {
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, R$styleable.PageCircleIndicator);
+            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.PageCircleIndicator);
             this.mIndicatorWidth = typedArray.getDimensionPixelSize(0, 3);
             this.mIndicatorHeight = typedArray.getDimensionPixelSize(1, 3);
             this.mIndicatorMargin = typedArray.getDimensionPixelSize(2, 8);

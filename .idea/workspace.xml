@@ -16,44 +16,238 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5aaabc-c324-43a4-bac1-0f860913dda1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0b5aaabc-c324-43a4-bac1-0f860913dda1" name="Default" comment="Fix errors">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppArcListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppArcListFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppFitnessListUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppFitnessModeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/wearable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/wearable/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/mediatek/watchapp/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/mediatek/watchapp/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/tmp-build-info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_anima_bt.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_anima_wifi.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/CallSuper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/IntRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/NonNull.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/Nullable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/RequiresApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/RestrictTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/annotation/VisibleForTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/percent/PercentLayoutHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/percent/PercentRelativeLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/percent/R$styleable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/animation/AnimatorCompatHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/animation/AnimatorProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/animation/GingerbreadAnimatorCompatProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/animation/HoneycombMr1AnimatorCompatProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/ActivityCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/ActivityCompatHoneycomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/ActivityCompatJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/BackStackRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/BackStackState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/BaseFragmentActivityGingerbread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/BaseFragmentActivityHoneycomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/BaseFragmentActivityJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/BundleUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentHostCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentManagerNonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentManagerState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentStatePagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentTabHost$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentTransition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/FragmentTransitionCompat21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/LoaderManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/LoaderManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/NoSaveStateFrameLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/NotificationCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/NotificationCompatApi20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/NotificationCompatBase$Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/NotificationCompatJellybean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/NotificationCompatKitKat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/OneShotPreDrawListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/RemoteInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/RemoteInputCompatApi20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/RemoteInputCompatBase$RemoteInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/RemoteInputCompatJellybean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/SharedElementCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/SuperNotCalledException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/app/SupportActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/content/ContextCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/BuildCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/IResultReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/ParcelableCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/ParcelableCompatCreatorCallbacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/ParcelableCompatCreatorHoneycombMR2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/ParcelableCompatCreatorHoneycombMR2Stub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/ResultReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/TraceCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/os/TraceJellybeanMR2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/ArrayMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/ArraySet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/ContainerHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/DebugUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/LogWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/LongSparseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/LruCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/MapCollections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/Pools$Pool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/Pools$SimplePool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/SimpleArrayMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/util/SparseArrayCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/AbsSavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/AccessibilityDelegateCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/AccessibilityDelegateCompatIcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/AccessibilityDelegateCompatJellyBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/KeyEventCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/KeyEventCompatHoneycomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/LayoutInflaterCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/LayoutInflaterCompatBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/LayoutInflaterCompatHC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/LayoutInflaterCompatLollipop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/LayoutInflaterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/MarginLayoutParamsCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/MarginLayoutParamsCompatJellybeanMr1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/MotionEventCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/MotionEventCompatHoneycombMr1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/NestedScrollingChild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/NestedScrollingChildHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/NestedScrollingParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/OnApplyWindowInsetsListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/PagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ScrollingView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/VelocityTrackerCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/VelocityTrackerCompatHoneycomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatHC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatICS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatJellybeanMr1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatKitKat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewCompatLollipop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewConfigurationCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewPager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewParentCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewParentCompatLollipop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewPropertyAnimatorCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewPropertyAnimatorCompatICS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewPropertyAnimatorCompatJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/ViewPropertyAnimatorListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/WindowInsetsCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/WindowInsetsCompatApi20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/WindowInsetsCompatApi21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityEventCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityEventCompatKitKat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatApi21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatIcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellybeanMr2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatKitKat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatJellyBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatKitKat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityRecordCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/view/accessibility/AccessibilityRecordCompatIcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/DrawerLayout$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/EdgeEffectCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/EdgeEffectCompatIcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/EdgeEffectCompatLollipop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/NestedScrollView$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/ScrollerCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/ScrollerCompatIcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v4/widget/SlidingPaneLayout$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/recyclerview/R$styleable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/AdapterHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/ChildHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/DefaultItemAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/GapWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/LinearLayoutManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/LinearSmoothScroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/LinearSnapHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/OpReorderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/OrientationHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/RecyclerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/RecyclerViewAccessibilityDelegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/ScrollbarHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/SimpleItemAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/SnapHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/StaggeredGridLayoutManager$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/ViewBoundsCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/widget/ViewInfoStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$dimen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$style.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$styleable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/ComplicationData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/ComplicationProviderInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/ComplicationText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeDifferenceText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeFormatText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/rendering/ComplicationRenderer$PaintSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/input/RotaryEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/internal/SharedLibraryVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/preference/AcceptDenyDialogPreference$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/preference/AcceptDenySwitchPreference$SavedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/AcceptDenyDialogFragment$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/AcceptDenyDialogFragment$Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ActionLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ActionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/BackgroundController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/CardFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/CardScrollView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/CircledImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/CircularButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/CrossfadeDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/CurvedChildLayoutManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/Func.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/GridPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/GridViewPager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/Gusterpolator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ObservableScrollView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ProgressDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ScrollManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/SimpleAnimatorListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/SimpleAnimatorListener2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ViewportDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/WearableRecyclerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/drawer/PageIndicatorView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/wearable/watchface/WatchFaceStyle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListRoundFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListRoundFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppMatrixFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppMatrixFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BootComoletedReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BootComoletedReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ChooseClockActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ChooseClockActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/NetHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/NetHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anima_bt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/anima_bt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anima_wifi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/anima_wifi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/view/RoundImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/view/RoundImageView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,91 +270,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SportsStepFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/mediatek/watchapp/R.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="164">
+              <caret line="2913" column="35" selection-start-line="2913" selection-start-column="35" selection-end-line="2913" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/StepsMeterView.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="97">
+              <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/SwipeHelper.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/Util.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="62" column="77" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="1999" column="17" lean-forward="true" selection-start-line="1999" selection-start-column="17" selection-end-line="1999" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="610" column="90" selection-start-line="610" selection-start-column="90" selection-end-line="610" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchAppWidgetHost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteDefaultClockView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15073">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="299">
+              <caret line="221" column="19" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -176,8 +355,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getSystemRaiseWakeUp</find>
-      <find>CustomDigitalClockSave</find>
       <find>setAppListStyle</find>
       <find>mSettingsObserver</find>
       <find>refreshApplist</find>
@@ -206,6 +383,8 @@
       <find>mListener</find>
       <find>mTelephonyManager</find>
       <find>Icc</find>
+      <find>AcceptDenyDialogPreference</find>
+      <find>ActionPage_imageScaleMode</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -217,12 +396,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDBHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/android/support/wearable/myView/WearableListView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PowerManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_screen_slide.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/percent/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/ComplicationData.java" />
@@ -235,7 +408,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/complications/TimeDifferenceText.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/R$styleable.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/wearable/view/ActionPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinDownloadService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/online/ClockSkinOnlineListItem.java" />
@@ -243,16 +415,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppArcListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppFitnessListUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListRoundFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppMatrixFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/BootComoletedReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ChooseClockActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java" />
@@ -261,13 +430,23 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/NotificationSubFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsHealthFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSystemConfigFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ScreenControl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WeatherFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/view/RoundImageView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/mediatek/watchapp/R.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java" />
       </list>
     </option>
   </component>
@@ -378,7 +557,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -457,6 +636,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539244602004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fix errors">
+      <created>1557599447260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557599447260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -472,7 +659,7 @@
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
     <layout>
       <window_info id="Resources Explorer" weight="0.32960597" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -487,7 +674,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.38586956" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.38586956" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.5734494" />
@@ -504,129 +691,11 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix errors" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CircleScoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/ClockUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CrashHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="117" column="87" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateTimeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="118" column="17" lean-forward="true" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DateView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/DirectionalViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="460" column="45" selection-start-line="460" selection-start-column="45" selection-end-line="460" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/FitStepCountView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1245">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/IdleFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="1970" column="9" lean-forward="true" selection-start-line="1970" selection-start-column="9" selection-end-line="1970" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MiniColumnChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MoonPhase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="224" column="49" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MusicMediaFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="71" column="82" lean-forward="true" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MyAnalogClock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -706,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -724,16 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="328" column="24" lean-forward="true" selection-start-line="328" selection-start-column="24" selection-end-line="328" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,20 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="680" column="49" selection-start-line="680" selection-start-column="49" selection-end-line="680" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -835,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="1999" column="17" lean-forward="true" selection-start-line="1999" selection-start-column="17" selection-end-line="1999" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WatchApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -872,8 +903,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/WiiteWatchFace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/VerticalViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="291" column="67" selection-start-line="291" selection-start-column="67" selection-end-line="291" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/MainVerticalViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/view/RoundImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/CallSuper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/IntRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/NonNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/Nullable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/RequiresApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/RestrictTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/annotation/VisibleForTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/percent/PercentLayoutHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/percent/PercentRelativeLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/percent/R$styleable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/AppListCustomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/R$styleable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/mediatek/watchapp/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="2913" column="35" selection-start-line="2913" selection-start-column="35" selection-end-line="2913" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomDigitalClockSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/PageCircleIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/HorizontalProgressBarWithNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="62" column="77" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/RoundProgressBarWidthNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/CustomAnalogClock6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mediatek/watchapp/QuickSettingsSubFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="221" column="19" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

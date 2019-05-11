@@ -60,7 +60,7 @@ public class HorizontalProgressBarWithNumber extends ProgressBar {
     }
 
     private void obtainStyledAttributes(AttributeSet attrs) {
-        TypedArray attributes = getContext().obtainStyledAttributes(attrs, R$styleable.HorizontalProgressBarWithNumber);
+        TypedArray attributes = getContext().obtainStyledAttributes(attrs, R.styleable.HorizontalProgressBarWithNumber);
         this.mTextColor = attributes.getColor(5, -261935);
         this.mTextSize = (int) attributes.getDimension(4, (float) this.mTextSize);
         this.mReachedBarColor = attributes.getColor(1, this.mTextColor);

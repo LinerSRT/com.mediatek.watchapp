@@ -24,7 +24,6 @@ import android.support.v4.view.ViewPager.PageTransformer;
 import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.support.v4.view.accessibility.AccessibilityRecordCompat;
 import android.support.v4.widget.EdgeEffectCompat;
-import android.support.wearable.R$styleable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.FocusFinder;

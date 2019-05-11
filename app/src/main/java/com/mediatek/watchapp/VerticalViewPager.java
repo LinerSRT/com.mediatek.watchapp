@@ -24,7 +24,6 @@ import android.support.v4.view.ViewPager.PageTransformer;
 import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.support.v4.view.accessibility.AccessibilityRecordCompat;
 import android.support.v4.widget.EdgeEffectCompat;
-import android.support.wearable.R$styleable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.FocusFinder;
@@ -181,7 +180,7 @@ public class VerticalViewPager extends ViewGroup {
             event.setClassName(ViewPager.class.getName());
             AccessibilityRecordCompat recordCompat = AccessibilityRecordCompat.obtain();
             recordCompat.setScrollable(canScroll());
-            if (event.getEventType() == 4096 && VerticalViewPager.this.mAdapter != null) {
+            if (event.getEventType() == AccessibilityEvent.TYPE_VIEW_SCROLLED && VerticalViewPager.this.mAdapter != null) {
                 recordCompat.setItemCount(VerticalViewPager.this.mAdapter.getCount());
                 recordCompat.setFromIndex(VerticalViewPager.this.mCurItem);
                 recordCompat.setToIndex(VerticalViewPager.this.mCurItem);
@@ -290,7 +289,7 @@ public class VerticalViewPager extends ViewGroup {
 
     void initViewPager() {
         setWillNotDraw(false);
-        setDescendantFocusability(262144);
+        setDescendantFocusability(ViewGroup.FOCUS_AFTER_DESCENDANTS);
         setFocusable(true);
         Context context = getContext();
         this.mScroller = new Scroller(context, sInterpolator);

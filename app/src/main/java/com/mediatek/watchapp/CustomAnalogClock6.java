@@ -86,7 +86,7 @@ public class CustomAnalogClock6 extends View {
         this.mReceiver = new Receiver();
         this.mTickerStopped = false;
         Resources r = getContext().getResources();
-        TypedArray a = context.obtainStyledAttributes(attrs, R$styleable.CustomClock, defStyle, 0);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CustomClock, defStyle, 0);
         this.mDial = a.getDrawable(0);
         this.mHourHand = a.getDrawable(1);
         this.mMinuteHand = a.getDrawable(2);
